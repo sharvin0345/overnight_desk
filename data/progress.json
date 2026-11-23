@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 01:05 MYT",
+ "updated": "Tue 24 Nov 01:45 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,18 +12,50 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "F5rqfR",
-   "time": "00:59",
+   "symbol": "CLAUDIO",
+   "time": "01:43",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=CpcxwYkNoZLkHjm1XSLHDQxAWUhGQUS8xVAfN4WQpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "CpcxwYkNoZLkHjm1XSLHDQxAWUhGQUS8xVAfN4WQpump"
+  },
+  {
+   "symbol": "3uqQs7",
+   "time": "01:43",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=3uqQs7RawsTL4Nuux52rfJLThdxmLBQvaJ9xqSDtpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "3uqQs7RawsTL4Nuux52rfJLThdxmLBQvaJ9xqSDtpump"
+  },
+  {
+   "symbol": "HUANG",
+   "time": "01:41",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=2pCeTXJe9WUWHCZ6DaDBbXuiDg6KEgYHD54RRzfUpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "2pCeTXJe9WUWHCZ6DaDBbXuiDg6KEgYHD54RRzfUpump"
+  },
+  {
+   "symbol": "GseaSW",
+   "time": "01:41",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GseaSWrtoQUZ3eXu3Si8zRv8TZ4b7Sx5ez1PhrZTpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GseaSWrtoQUZ3eXu3Si8zRv8TZ4b7Sx5ez1PhrZTpump"
+  },
+  {
+   "symbol": "MAIN",
+   "time": "00:59",
+   "status": "Scanner killed: liq $2.5K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=F5rqfR9hp4EhceJQyKq4MjN83oh2298WhHbPjDEnpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "F5rqfR9hp4EhceJQyKq4MjN83oh2298WhHbPjDEnpump"
   },
   {
-   "symbol": "C3g5gY",
+   "symbol": "JACKET",
    "time": "00:59",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $1.8K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=C3g5gYECbttn2HmkyxhS2c3iqkhELkEDDNBTAhDCpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "C3g5gYECbttn2HmkyxhS2c3iqkhELkEDDNBTAhDCpump"
   },
@@ -90,45 +122,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=cbzfmDW7VT28wAaupybHeBsDezHi9yfHCx1Ymocpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "cbzfmDW7VT28wAaupybHeBsDezHi9yfHCx1Ymocpump"
-  },
-  {
-   "symbol": "GTA 6 Coin",
-   "time": "15:36",
-   "status": "Scanner killed: top 10 hold 26%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Ftb2BDazcQ8gBBceedy2yLPPqPbvgsCMgNRvoNbhpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Ftb2BDazcQ8gBBceedy2yLPPqPbvgsCMgNRvoNbhpump"
-  },
-  {
-   "symbol": "PC",
-   "time": "15:32",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=3c15tbWtVszdmmxr4so4J9mMecbPJjwG65urg1CRpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "3c15tbWtVszdmmxr4so4J9mMecbPJjwG65urg1CRpump"
-  },
-  {
-   "symbol": "HAZEL",
-   "time": "15:30",
-   "status": "Scanner killed: liq $3.5K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=BagMvu22LNLFN3epFapqPxtv58P54RoqADzMeCWrpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "BagMvu22LNLFN3epFapqPxtv58P54RoqADzMeCWrpump"
-  },
-  {
-   "symbol": "SANTAPUMP",
-   "time": "15:29",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=8zQKoTF8B3PGtNm7XvRYU1GHeud1T4WPeSYJY6EXpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "8zQKoTF8B3PGtNm7XvRYU1GHeud1T4WPeSYJY6EXpump"
   }
  ],
  "funnel": {
-  "seen": 53,
+  "seen": 57,
   "passed": 3,
   "kills": {
-   "liq $NK": 31,
+   "liq $NK": 33,
    "+N% in Nh": 4,
    "top N hold N%": 4
   },
@@ -159,7 +159,7 @@
    "state": "ok"
   }
  ],
- "ws": "reconnecting",
+ "ws": "open",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -169,7 +169,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T01:05:39+08:00",
+ "updated_at": "2026-11-24T01:45:28+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
