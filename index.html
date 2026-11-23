@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Sharvin's Overnight Desk: a paper-trading Solana memecoin desk on fomo.family. Simulated money, five bots, no real funds.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Overnight Desk">
+  <meta property="og:title" content="Overnight Desk · Paper">
+  <meta property="og:description" content="Sharvin's paper-trading Solana memecoin desk. Simulated money, five bots, no real funds.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sharvin0345.github.io/overnight_desk/">
+  <title>Overnight Desk · Paper</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function () {
+      var id = (location.hash || "").replace(/^#/, "");
+      var how = { how: 1, pipeline: 1, scanner: 1, analyst: 1, social: 1, brain: 1, executor: 1, risk: 1 };
+      document.documentElement.setAttribute("data-boot", how[id] ? "how" : "progress");
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="app">
+    <header class="top">
+      <div class="brand">
+        <h1><span class="pulse" id="pulse" hidden></span>Overnight Desk</h1>
+        <span class="badge">PAPER</span>
+      </div>
+      <p class="byline">Sharvin · fomo.family</p>
+      <p class="banner">Simulated money. No real funds.</p>
+      <div class="tabs" role="tablist" aria-label="Sections">
+        <a id="tab-progress" href="#progress" role="tab" aria-controls="panel-progress">Progress</a>
+        <a id="tab-how" href="#how" role="tab" aria-controls="panel-how">How it works</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <div id="panel-progress" role="tabpanel" aria-labelledby="tab-progress">
+        <div id="progress-root">
+          <p class="loading">Loading the snapshot…</p>
+        </div>
+      </div>
+
+      <div id="panel-how" role="tabpanel" aria-labelledby="tab-how" hidden>
+        <section class="lead">
+          <p class="kicker"><span class="badge">PAPER</span> How it works</p>
+          <p class="lede">Five bots share one paper account. They watch new Solana memecoins and practice the trade with simulated money. The account started at $36.</p>
+        </section>
+
+        <section id="pipeline">
+          <h2 class="group">How a coin moves</h2>
+          <figure class="pipe-wrap">
+            <ol class="pipe">
+              <li>
+                <article class="node">
+                  <span class="num">1</span>
+                  <div>
+                    <h3>Scanner</h3>
+                    <p>Sees a new pump.fun migration. Judges it at 10 minutes.</p>
+                  </div>
+                </article>
+                <p class="gate">
+                  <svg viewBox="0 0 24 32" width="24" height="32" aria-hidden="true"><path d="M12 0v20" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7 16l5 8 5-8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                  <span>Passes the cuts</span>
+                </p>
+              </li>
+              <li>
+                <article class="node">
+                  <span class="num">2</span>
+                  <div>
+                    <h3>Analyst</h3>
+                    <p>Eight safety layers, then a score from 0 to 100.</p>
+                  </div>
+                </article>
+                <div class="branch">
+                  <svg viewBox="0 0 28 52" width="28" height="52" aria-hidden="true">
+                    <path d="M4 0v22h16" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <path d="M16 18l6 4-6 4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                  </svg>
+                  <article class="node node-social">
+                    <span class="num">+</span>
+                    <div>
+                      <h3>Social</h3>
+                      <p>Nudges the score after all 8 layers are green.</p>
+                    </div>
+                  </article>
+                </div>
+                <p class="gate">
+                  <svg viewBox="0 0 24 32" width="24" height="32" aria-hidden="true"><path d="M12 0v20" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7 16l5 8 5-8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                  <span>Score 70 or more</span>
+                </p>
+              </li>
+              <li>
+                <article class="node">
+                  <span class="num">3</span>
+                  <div>
+                    <h3>Brain</h3>
+                    <p>Turns that score into a dollar size. Never clicks.</p>
+                  </div>
+                </article>
+                <p class="gate">
+                  <svg viewBox="0 0 24 32" width="24" height="32" aria-hidden="true"><path d="M12 0v20" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7 16l5 8 5-8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                  <span>A size in dollars</span>
+                </p>
+              </li>
+              <li>
+                <article class="node">
+                  <span class="num">4</span>
+                  <div>
+                    <h3>Executor</h3>
+                    <p>Waits for a 15% dip, then a simulated buy and take-profit.</p>
+                  </div>
+                </article>
+                <p class="gate">
+                  <svg viewBox="0 0 24 32" width="24" height="32" aria-hidden="true"><path d="M12 0v20" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7 16l5 8 5-8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                  <span>Position open</span>
+                </p>
+              </li>
+              <li>
+                <article class="node">
+                  <span class="num">5</span>
+                  <div>
+                    <h3>Risk</h3>
+                    <p>Guards the position. Cuts losers. Stops new buys at −30%.</p>
+                  </div>
+                </article>
+              </li>
+            </ol>
+          </figure>
+          <p class="note">The desk runs around the clock. It watches coins that graduate off the pump.fun curve onto PumpSwap, using public data only.</p>
+        </section>
+
+        <section class="explain" id="scanner">
+          <h2>Scanner</h2>
+          <p class="job">Scanner counts and cuts. It watches new migrations and, once the pool is 10 minutes old, it passes or kills. It does this once per coin.</p>
+          <ul class="chips">
+            <li>At 10 min</li>
+            <li>Pool ≥ $10K</li>
+            <li>Top 10 ≤ 25%</li>
+            <li>1h ≤ +200%</li>
+          </ul>
+          <div class="card">
+            <p>Every minute it refreshes price and recent volume for coins still waiting, and it reads holder counts from public chain data when that read works.</p>
+            <p>The first miss is a kill:</p>
+            <ul class="cuts">
+              <li><strong>Liquidity</strong> Pool under $10,000. The saved setting started at $20,000. The floor is $10,000 now.</li>
+              <li><strong>Top 10</strong> The biggest 10 holders own more than 25%. The pool and the bonding curve are left out of that count.</li>
+              <li><strong>Last hour</strong> Price up more than 200% in the last hour.</li>
+              <li><strong>Copycat</strong> The name or symbol copies a coin that already ran today (up 300% or more over 24 hours). The match drops case, spaces, digits, and emoji, then looks for an exact match or one name inside the other.</li>
+              <li><strong>Holders leaving</strong> Holder count is down over the last 10 minutes.</li>
+              <li><strong>FOMO warning</strong> Selling or buying is disabled, or there is any other warning, when that feed is actually there. With no feed, Scanner logs “no data” and does not invent a warning.</li>
+            </ul>
+            <p>A coin still waiting at 60 minutes is dropped. A coin the public price feed does not know never passes. Scanner does not pass the same coin twice in a session.</p>
+            <p>It also notes liquidity versus market cap, and whether volume is speeding up. Those two stay on file for a later review. They do not cut a coin.</p>
+          </div>
+        </section>
+
+        <section class="explain" id="analyst">
+          <h2>Analyst</h2>
+          <p class="job">Analyst takes every coin Scanner passes and walks eight safety layers, in order. It stops at the first red. A missing fact is a red. Seven out of eight is a no.</p>
+          <ul class="chips">
+            <li>8 layers</li>
+            <li>Score ≥ 70</li>
+            <li>Dev ≤ 5%</li>
+            <li>LP ≥ 99%</li>
+          </ul>
+          <div class="card">
+            <ol class="layers">
+              <li><span><strong>Mint revoked.</strong> Nobody can print more of the token.</span></li>
+              <li><span><strong>Freeze revoked.</strong> Nobody can freeze a wallet.</span></li>
+              <li><span><strong>Dev wallet.</strong> The creator holds 5% or less and has not sold since migration. Earlier rugged coins by that creator are a red. A brand-new dev with no history is allowed through this layer.</span></li>
+              <li><span><strong>Top 10.</strong> At or under 25%, with the pool and the curve left out.</span></li>
+              <li><span><strong>Liquidity.</strong> LP is locked or burned at least 99%, and liquidity has not fallen more than 50% since Scanner saw it. No LP figure is a red.</span></li>
+              <li><span><strong>Pool age.</strong> The pool is at least 10 minutes old.</span></li>
+              <li><span><strong>Bundles.</strong> Wallets tied together by funding form groups. The biggest group is under 5 wallets, and insider networks hold under 15%. No bundle map is a red. A missing insider field counts as zero networks, and Analyst says so.</span></li>
+              <li><span><strong>Delegations.</strong> No delegate sits on more than 10 holder accounts.</span></li>
+            </ol>
+            <h3>Then the score</h3>
+            <p>The score runs from 0 to 100. A coin needs 70 to pass. Organic flow and fresh wallets move this score.</p>
+            <ul class="cuts">
+              <li><strong>Alive</strong> Volume this hour, measured against $25,000.</li>
+              <li><strong>Organic</strong> Distinct buyers this hour, measured against 80. If that count is missing, buy transactions measured against 150. This part is cut in half, and the cuts stack, when sellers outnumber buyers, when 3 or more wallets are bundled, when the bonding curve filled in under 10 minutes, or when half or more of the top 20 holders are fresh (under 10 past signatures).</li>
+              <li><strong>Flush</strong> Sellers drying up over 5 minutes. Full credit when sells are at or below buys, half credit up to 1.5× buys, otherwise none. The price drop itself stays out of the score. The dip belongs to Executor.</li>
+              <li><strong>Chase</strong> How far price already ran this hour, against 200%. A big run lowers the score.</li>
+            </ul>
+            <p>Social can add a fifth part, at half the weight of one of those four. With no social reading, that weight is zero and the score is the four parts above. Analyst does not reopen a coin it already refused this session.</p>
+          </div>
+        </section>
+
+        <section class="explain" id="social">
+          <h2>Social</h2>
+          <p class="job">Social is part of Analyst’s score. It runs only after all eight layers are green, once per coin, for at most 20 coins an hour. It reads public posts. It cannot turn a red layer green, and it cannot pass a coin the layers stopped.</p>
+          <ul class="chips">
+            <li>Weight 0.5</li>
+            <li>20 an hour</li>
+            <li>120s timeout</li>
+            <li>Shill ring halves size</li>
+          </ul>
+          <div class="card">
+            <p>The reading mixes people posting in the last 15 minutes (fading chatter counts for half), big accounts, a real catalyst, the coin’s own account when it is over 7 days old and gets replies, and holders who already show up among known names. A big account has at least 10,000 followers, or is a known leader. The mix is 30% recent posters, 30% known holders, 15% big accounts, 15% a catalyst, and 10% the coin’s own account, minus shill.</p>
+            <p>A shill ring is accounts under 30 days old posting the same text three or more times. The coin’s own account is not “big.” Accounts that posted five or more other new coins in the last hour are not “big” either, and they count toward shill. If the ring is half or more of the posts, Brain sizes the trade in half.</p>
+            <p>Known holders are counted when that holder feed is available. Without it, that part is empty. If Social is off, or it has no answer in 120 seconds, the score goes on without it. The buy does not wait.</p>
+          </div>
+        </section>
+
+        <section class="explain" id="brain">
+          <h2>Brain</h2>
+          <p class="job">Brain only sizes. It never picks the coin and never clicks buy. Cash already in an open position, or reserved for an order waiting on a dip, is not free cash.</p>
+          <ul class="chips">
+            <li>3% risk</li>
+            <li>Full size at 80+</li>
+            <li>Half below 80</li>
+            <li>Max 2% of pool</li>
+            <li>$2–$50</li>
+          </ul>
+          <div class="card">
+            <p>A trade may risk 3% of free cash. The stop is 25%, so the size is free cash × 3% ÷ 25%. At these settings a full size is 12% of free cash: if the stop hits, it costs about 3% of cash. The size is rounded to cents.</p>
+            <ul class="cuts">
+              <li><strong>Score 80 or more</strong> Full size.</li>
+              <li><strong>Score under 80</strong> Half of that size.</li>
+              <li><strong>Shill ring</strong> Half again.</li>
+              <li><strong>Pool</strong> Never more than 2% of pool liquidity, so a later sell does not have to shove a thin pool.</li>
+              <li><strong>Ticket</strong> Never more than $50. Under $2, skip. $2 is the minimum ticket.</li>
+              <li><strong>Pace</strong> At most 30 trades a session. A session down 30% means no more buys.</li>
+            </ul>
+            <p>Brain does not change the size after Executor takes the order.</p>
+          </div>
+        </section>
+
+        <section class="explain" id="executor">
+          <h2>Executor</h2>
+          <p class="job">Executor buys the dip and takes profit. On this desk the fill is simulated. It does not pick the coin and it does not change Brain’s size. One order at a time. It will not add to an open position, and it will not average down.</p>
+          <ul class="chips">
+            <li>15% dip</li>
+            <li>10-minute high</li>
+            <li>Waits up to 30 min</li>
+            <li>Skip a 35% crash</li>
+            <li>Sell 50% at 2×</li>
+            <li>Then a 40% trail</li>
+          </ul>
+          <div class="card">
+            <p>The order can wait up to 30 minutes. It buys when price is at least 15% under the high of the last 10 minutes, and sellers are not still flooding in: sells over 5 minutes have to be at most 1.5× the buys. A fall with sellers still running is a wait. A drop of 35% or more under that 10-minute high is a crash, and Executor skips it. If the dip never comes, it skips.</p>
+            <p>Right before the buy it looks again. It skips if liquidity is down more than 20% since Scanner, if price is up more than 15% since Analyst, if the cash is gone, or if the dev sold while it waited. On a live account it also skips when buying or selling has been turned off. That check is not available on paper.</p>
+            <p>Take profit: at 2× the entry it sells half. After that it tracks the peak. If price falls 40% from that peak, it sells the rest.</p>
+          </div>
+        </section>
+
+        <section class="explain" id="risk">
+          <h2>Risk</h2>
+          <p class="job">Risk cuts losers. The rules stay put. It reads the price every 5 seconds, runs the checks in this order, and the first hit is a full sell.</p>
+          <ul class="chips">
+            <li>Stop −25%</li>
+            <li>3h if up under 5%</li>
+            <li>Session −30% stops buys</li>
+          </ul>
+          <div class="card">
+            <ul class="cuts">
+              <li><strong>Stop</strong> Price at −25% from the entry. The stop is set when the buy fills, and it only tightens. It never moves down.</li>
+              <li><strong>Dead money</strong> Open for 3 hours and still up less than 5%.</li>
+              <li><strong>Pulled</strong> Liquidity at zero, or down more than 80% in one check.</li>
+              <li><strong>Dev dumping</strong> Every minute, the creator’s balance is down more than 50% since the buy.</li>
+              <li><strong>No price</strong> No price for 12 checks in a row. Risk does not invent a price.</li>
+            </ul>
+            <p>If the session is down 30%, Risk tells Brain to stop buying. That is the night stop. Sells still go through. The desk keeps watching around the clock. A −30% session is what ends new buys.</p>
+            <p>An earlier schedule used a 22:00–06:30 window, with a report at 08:00. The desk now stays on around the clock.</p>
+          </div>
+        </section>
+
+        <section class="explain" id="sources">
+          <h2>What this page reads</h2>
+          <div class="card">
+            <p>The Progress tab loads one file, <code>data/progress.json</code>, and draws every number from it. Replace that file and the figures update on the next deploy.</p>
+            <p>The bots read public migration events, public prices, public chain accounts, and public safety reports. This page does not call those services. It holds no wallet, no key, and no private endpoint.</p>
+            <p>Paper fills in the settings include a 0.45% fee. Nothing here can send a transaction.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <p><span class="badge">PAPER</span></p>
+      <p>Simulated money only. This site does not trade.</p>
+      <a class="signup" href="https://fomo.family/r/savipww" target="_blank" rel="noopener noreferrer">New to FOMO?</a>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
