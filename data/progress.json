@@ -1,5 +1,5 @@
 {
- "updated": "Mon 23 Nov 18:38 MYT",
+ "updated": "Mon 23 Nov 20:01 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -22,6 +22,30 @@
   }
  ],
  "coins": [
+  {
+   "symbol": "FAFO",
+   "time": "18:58",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=2z3SPHAQocvNTwiANW6abD4GpM38JT9URG9WTWfdpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "2z3SPHAQocvNTwiANW6abD4GpM38JT9URG9WTWfdpump"
+  },
+  {
+   "symbol": "Claude AI",
+   "time": "18:57",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=ReXuqkcjozgcmeVD84FkbactNky85bJkqKTAtyLpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "ReXuqkcjozgcmeVD84FkbactNky85bJkqKTAtyLpump"
+  },
+  {
+   "symbol": "FionaKnit",
+   "time": "18:39",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=EBg1gH6RdovazBBiVwpawGYSNQggn872gT51e6Phpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "EBg1gH6RdovazBBiVwpawGYSNQggn872gT51e6Phpump"
+  },
   {
    "symbol": "🙏",
    "time": "18:11",
@@ -109,37 +133,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=hqMBNtqfjRiz3yR8PQ3qibHst6AdNDsr98GXFzbpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "hqMBNtqfjRiz3yR8PQ3qibHst6AdNDsr98GXFzbpump"
-  },
-  {
-   "symbol": "milky",
-   "time": "15:19",
-   "status": "Scanner killed: liq $8.1K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=HqhBJYFEuXrGyWjjLFughGK4cYNm5H1hVFfvWDrRpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "HqhBJYFEuXrGyWjjLFughGK4cYNm5H1hVFfvWDrRpump"
-  },
-  {
-   "symbol": "COQ",
-   "time": "15:08",
-   "status": "Bought, then stop -2.86",
-   "verdict": "bought",
-   "link": "https://fomo.family/coin?address=C7ynkJv6aYy5ndC6k22M3k8aQzjuHB1QJPZDZk67pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "C7ynkJv6aYy5ndC6k22M3k8aQzjuHB1QJPZDZk67pump"
-  },
-  {
-   "symbol": "Slingoor",
-   "time": "15:05",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=F7z3vLPDkuXbWPZhvQmf3y76T7a1V4MDvJFt6wxMpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "F7z3vLPDkuXbWPZhvQmf3y76T7a1V4MDvJFt6wxMpump"
   }
  ],
  "funnel": {
-  "seen": 51,
+  "seen": 52,
   "passed": 3,
   "kills": {
-   "liq $NK": 35,
+   "liq $NK": 34,
    "+N% in Nh": 4,
    "top N hold N%": 4
   },
@@ -180,7 +180,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-23T18:38:43+08:00",
+ "updated_at": "2026-11-23T20:01:01+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
