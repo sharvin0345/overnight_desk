@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 05:09 MYT",
+ "updated": "Tue 24 Nov 06:11 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -14,16 +14,16 @@
   {
    "symbol": "ELON",
    "time": "05:06",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $1.5K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=F9jestUaiUFPT4UPfuT9JN8pZVdbMR2LQcHgZwoJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "F9jestUaiUFPT4UPfuT9JN8pZVdbMR2LQcHgZwoJpump"
   },
   {
-   "symbol": "BTz2pN",
+   "symbol": "Rockstar",
    "time": "05:05",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: +438% in 1h",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=BTz2pNeHz28qq9EaffrdyPnGvefHyd3j46Wtuamnpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "BTz2pNeHz28qq9EaffrdyPnGvefHyd3j46Wtuamnpump"
   },
@@ -125,11 +125,11 @@
   }
  ],
  "funnel": {
-  "seen": 76,
+  "seen": 75,
   "passed": 3,
   "kills": {
-   "liq $NK": 44,
-   "+N% in Nh": 6,
+   "liq $NK": 42,
+   "+N% in Nh": 7,
    "top N hold N%": 7,
    "holders leaving -N% in Nm": 1,
    "copycat of HUANG": 1
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T05:09:55+08:00",
+ "updated_at": "2026-11-24T06:11:46+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
