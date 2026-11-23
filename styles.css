@@ -440,6 +440,19 @@ main { padding: 4px 16px 0; }
 .pnl.down { color: var(--red); }
 .pnl.flat { color: var(--muted); }
 
+.session {
+  margin: 2px 0 0;
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.session-k {
+  margin-right: 6px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
 .meta,
 .asof {
   margin: 6px 0 0;
@@ -534,7 +547,13 @@ main { padding: 4px 16px 0; }
   font-size: 15px;
 }
 
+.kv > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .kv b {
+  flex: none;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
 }

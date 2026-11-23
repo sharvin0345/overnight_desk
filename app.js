@@ -117,14 +117,37 @@
     return core;
   }
 
-  function signedPct(value) {
+  function signedPct(value, digits) {
+    var places = digits == null ? 2 : digits;
     var body = Math.abs(value).toLocaleString("en-US", {
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2
+      minimumFractionDigits: places,
+      maximumFractionDigits: places
     });
     if (value > 0) return "+" + body + "%";
     if (value < 0) return "−" + body + "%";
     return body + "%";
+  }
+
+  function roundTo(value, digits) {
+    var factor = Math.pow(10, digits);
+    return Math.round(value * factor) / factor;
+  }
+
+  var REASON_LABELS = {
+    "liq $NK": "Liquidity under $10K",
+    "+N% in Nh": "Pumped too fast (over 200% in 1h)",
+    "top N hold N%": "Top 10 holders own too much",
+    "dev sold": "Dev sold"
+  };
+
+  function reasonLabel(raw) {
+    if (Object.prototype.hasOwnProperty.call(REASON_LABELS, raw)) return REASON_LABELS[raw];
+    return raw;
+  }
+
+  function runPnlPct(data) {
+    if (!isNum(data.balance_usd) || !isNum(data.paper_start_usd) || data.paper_start_usd === 0) return null;
+    return ((data.balance_usd - data.paper_start_usd) / data.paper_start_usd) * 100;
   }
 
   function tone(value) {
@@ -240,9 +263,24 @@
     if (!balance && isNum(data.balance_usd)) balance = usd(data.balance_usd);
     hero.appendChild(el("p", "balance", balance || "—"));
 
-    var pnl = text(data.pnl_pct_label);
-    if (!pnl && isNum(data.pnl_pct)) pnl = signedPct(data.pnl_pct);
-    hero.appendChild(el("p", "pnl " + tone(data.pnl_pct), pnl || "—"));
+    var run = runPnlPct(data);
+    if (run != null) {
+      var rounded = roundTo(run, 1);
+      hero.appendChild(el("p", "pnl " + tone(rounded), signedPct(rounded, 1)));
+    }
+    var session = text(data.pnl_pct_label);
+    if (!session && isNum(data.pnl_pct)) session = signedPct(data.pnl_pct);
+    if (session) {
+      if (run == null) {
+        hero.appendChild(el("p", "pnl " + tone(data.pnl_pct), session));
+      } else {
+        var line = el("p", "session");
+        line.appendChild(el("span", "session-k", "This session"));
+        line.appendChild(document.createTextNode(" "));
+        line.appendChild(el("span", tone(data.pnl_pct), session));
+        hero.appendChild(line);
+      }
+    }
 
     var bits = [];
     var cash = text(data.cash);
@@ -304,12 +342,12 @@
     var kills = data.kills && typeof data.kills === "object" ? data.kills : {};
     list.appendChild(kv("Killed", String(sumCounts(kills))));
     Object.keys(kills).forEach(function (key) {
-      if (isNum(kills[key])) list.appendChild(kv(key, String(kills[key]), "sub"));
+      if (isNum(kills[key])) list.appendChild(kv(reasonLabel(key), String(kills[key]), "sub"));
     });
     var refusals = data.refusals && typeof data.refusals === "object" ? data.refusals : {};
     list.appendChild(kv("Refused", String(sumCounts(refusals))));
     Object.keys(refusals).forEach(function (key) {
-      if (isNum(refusals[key])) list.appendChild(kv(key, String(refusals[key]), "sub"));
+      if (isNum(refusals[key])) list.appendChild(kv(reasonLabel(key), String(refusals[key]), "sub"));
     });
     block.appendChild(list);
     return block;

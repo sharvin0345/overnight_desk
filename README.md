@@ -38,7 +38,7 @@ Opening `index.html` as a local file will not load the snapshot, because the pag
 
 Replace `data/progress.json` and push to `main`. There is no build. The page fetches that file with `cache: "no-store"`. Do not put tokens, keys, wallet secrets, withdrawal addresses, or private endpoints in the file or anywhere else in the repo. The footer URL is fixed in `index.html` and does not follow `signup` if that field is changed.
 
-The page prints `balance` and `pnl_pct_label` as written. It does not recompute P&amp;L from `paper_start_usd`. The seeded snapshot is balance `$33.11`, P&amp;L `+0.00%`, started at `$36`.
+The headline P&amp;L is the whole run against the paper start: `(balance_usd - paper_start_usd) / paper_start_usd`, shown to one decimal. The seed is `$33.11` against `$36`, which is **−8.0%**. `pnl_pct_label` stays the session figure and is shown on a smaller line labeled “This session” (seed: `+0.00%`). The balance string is still printed as written.
 
 ## `data/progress.json` schema
 
@@ -54,13 +54,13 @@ The page prints `balance` and `pnl_pct_label` as written. It does not recompute 
 | `mode` | string | `"PAPER"`. Any other value is shown as a warning. The badge stays PAPER. |
 | `active` | boolean | `true` → Desk **Running** and the green dot. `false` → **Paused**. |
 | `session` | string | Shown as the session id. Seed: `"2026-11-23"`. |
-| `paper_start_usd` | number | Starting paper cash. Seed: `36`. Shown as “Started at”. |
-| `balance` | string | Big balance label. Preferred over `balance_usd`. Seed: `"$33.11"`. |
-| `balance_usd` | number | Numeric balance. Used only if `balance` is empty. |
+| `paper_start_usd` | number | Starting paper cash. Seed: `36`. Shown as “Started at”, and used with `balance_usd` for the headline P&amp;L. |
+| `balance` | string | Big balance label. Preferred over `balance_usd` for the dollar figure. Seed: `"$33.11"`. |
+| `balance_usd` | number | Numeric balance. Required for the whole-run P&amp;L. Also used as the dollar label if `balance` is empty. |
 | `cash` | string | Cash label. Seed: `"$33.11"`. |
 | `cash_usd` | number | Numeric cash. Used only if `cash` is empty. |
-| `pnl_pct` | number | Sign and color of P&amp;L. `0` is flat. Seed: `0.0`. |
-| `pnl_pct_label` | string | P&amp;L text. Seed: `"+0.00%"`. |
+| `pnl_pct` | number | Color of the session line. `0` is flat. Seed: `0.0`. |
+| `pnl_pct_label` | string | Session P&amp;L text, shown as “This session”. Seed: `"+0.00%"`. |
 | `positions` | array | Open positions. `[]` shows an empty state. |
 | `trades` | array | Trade history. `[]` shows an empty state. |
 | `coins` | array | Recent coins, in file order. |
@@ -70,7 +70,16 @@ The page prints `balance` and `pnl_pct_label` as written. It does not recompute 
 | `rules` | object | Chips: `stop_pct`, `tp_x`, `min_liq` (USD), `min_score`. |
 | `signup` | string | Snapshot copy of the referral URL. The footer does not read it. |
 
-`funnel.kills` and `funnel.refusals` are objects of **reason label → count**. Labels are copied exactly. The seed's kill labels are the literal strings `liq $NK` (20) and `+N% in Nh` (2). Refusals: `dev sold` (1). Seen `27`. Passed `1`. Killed and Refused on the page are the sums of those objects.
+`funnel.kills` and `funnel.refusals` are objects of **reason label → count**. The page translates a few desk templates into readable phrases and shows any other label as written:
+
+| Raw label | Shown as |
+| --- | --- |
+| `liq $NK` | Liquidity under $10K |
+| `+N% in Nh` | Pumped too fast (over 200% in 1h) |
+| `top N hold N%` | Top 10 holders own too much |
+| `dev sold` | Dev sold |
+
+The seed already uses the readable phrases: Liquidity under $10K (20), Pumped too fast (over 200% in 1h) (2), Dev sold (1). Seen `27`. Passed `1`. Killed and Refused on the page are the sums of those objects. A script can write either the template or the phrase.
 
 `bots[]`:
 
@@ -154,4 +163,4 @@ Example position and trade (not in the seed — the seed's arrays are empty):
 }
 ```
 
-Minimal transform from a raw desk payload that already matches the seed's source shape: copy the payload through, set `schema_version` to `1`, set `timezone` to `Asia/Kuala_Lumpur`, set `updated_at` to the same instant as `updated`, set `paper_start_usd` to `36` unless that setting changed, set `balance_usd` and `cash_usd` from the dollar strings, and set each coin's `address` from its `link`. Leave kill and refusal labels untouched.
+Minimal transform from a raw desk payload that already matches the seed's source shape: copy the payload through, set `schema_version` to `1`, set `timezone` to `Asia/Kuala_Lumpur`, set `updated_at` to the same instant as `updated`, set `paper_start_usd` to `36` unless that setting changed, set `balance_usd` and `cash_usd` from the dollar strings, and set each coin's `address` from its `link`. Kill and refusal labels can stay as the desk’s template strings; the page translates the known ones. Writing the readable phrase into the file is fine too.

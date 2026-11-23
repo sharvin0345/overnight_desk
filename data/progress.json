@@ -134,11 +134,11 @@
     "seen": 27,
     "passed": 1,
     "kills": {
-      "liq $NK": 20,
-      "+N% in Nh": 2
+      "Liquidity under $10K": 20,
+      "Pumped too fast (over 200% in 1h)": 2
     },
     "refusals": {
-      "dev sold": 1
+      "Dev sold": 1
     }
   },
   "bots": [
