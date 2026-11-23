@@ -1,5 +1,5 @@
 {
- "updated": "Mon 23 Nov 20:01 MYT",
+ "updated": "Mon 23 Nov 20:08 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -139,7 +139,7 @@
   "seen": 52,
   "passed": 3,
   "kills": {
-   "liq $NK": 34,
+   "liq $NK": 32,
    "+N% in Nh": 4,
    "top N hold N%": 4
   },
@@ -170,7 +170,7 @@
    "state": "ok"
   }
  ],
- "ws": "open",
+ "ws": "connecting",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -180,7 +180,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-23T20:01:01+08:00",
+ "updated_at": "2026-11-23T20:08:37+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
