@@ -1,5 +1,5 @@
 {
- "updated": "Mon 23 Nov 18:11 MYT",
+ "updated": "Mon 23 Nov 18:38 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -23,26 +23,26 @@
  ],
  "coins": [
   {
-   "symbol": "GY7thS",
+   "symbol": "🙏",
    "time": "18:11",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=GY7thSyfeMghbmb57D9sUGLkZizdhDeXyTPVByespump&chainId=1399811149&r=savipww&source=share_link",
    "address": "GY7thSyfeMghbmb57D9sUGLkZizdhDeXyTPVByespump"
   },
   {
    "symbol": "Loaf",
    "time": "18:08",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 25%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=8Ugc1FHaeK6iXQrnUpztxhhNHqucFwaqC35A4Kjjpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8Ugc1FHaeK6iXQrnUpztxhhNHqucFwaqC35A4Kjjpump"
   },
   {
    "symbol": "DCTY",
    "time": "18:08",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 32%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=2Rg1wcfTHRWBnhdpFwXC9ba6Nvbc3R9X7FML2KwKpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "2Rg1wcfTHRWBnhdpFwXC9ba6Nvbc3R9X7FML2KwKpump"
   },
@@ -139,9 +139,9 @@
   "seen": 51,
   "passed": 3,
   "kills": {
-   "liq $NK": 34,
+   "liq $NK": 35,
    "+N% in Nh": 4,
-   "top N hold N%": 2
+   "top N hold N%": 4
   },
   "refusals": {
    "dev sold": 1,
@@ -180,7 +180,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-23T18:11:45+08:00",
+ "updated_at": "2026-11-23T18:38:43+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
