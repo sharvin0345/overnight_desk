@@ -1,5 +1,5 @@
 {
- "updated": "Mon 23 Nov 15:41 MYT",
+ "updated": "Mon 23 Nov 16:01 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -25,32 +25,32 @@
   {
    "symbol": "MEOWTAXI",
    "time": "15:40",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $9.1K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=cbzfmDW7VT28wAaupybHeBsDezHi9yfHCx1Ymocpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "cbzfmDW7VT28wAaupybHeBsDezHi9yfHCx1Ymocpump"
   },
   {
    "symbol": "GTA 6 Coin",
    "time": "15:36",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 26%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=Ftb2BDazcQ8gBBceedy2yLPPqPbvgsCMgNRvoNbhpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "Ftb2BDazcQ8gBBceedy2yLPPqPbvgsCMgNRvoNbhpump"
   },
   {
    "symbol": "PC",
    "time": "15:32",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=3c15tbWtVszdmmxr4so4J9mMecbPJjwG65urg1CRpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "3c15tbWtVszdmmxr4so4J9mMecbPJjwG65urg1CRpump"
   },
   {
    "symbol": "HAZEL",
    "time": "15:30",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $3.5K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=BagMvu22LNLFN3epFapqPxtv58P54RoqADzMeCWrpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "BagMvu22LNLFN3epFapqPxtv58P54RoqADzMeCWrpump"
   },
@@ -139,9 +139,9 @@
   "seen": 51,
   "passed": 3,
   "kills": {
-   "liq $NK": 33,
+   "liq $NK": 36,
    "+N% in Nh": 4,
-   "top N hold N%": 1
+   "top N hold N%": 2
   },
   "refusals": {
    "dev sold": 1,
@@ -180,7 +180,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-23T15:41:24+08:00",
+ "updated_at": "2026-11-23T16:01:29+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
