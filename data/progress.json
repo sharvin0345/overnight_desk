@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 02:25 MYT",
+ "updated": "Tue 24 Nov 03:07 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,18 +12,26 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "Make.fun",
-   "time": "02:15",
+   "symbol": "2KTUkj",
+   "time": "03:07",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=2KTUkjqLgsha26j9oSMT35J9xSsAv235C1Tv3gcLpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "2KTUkjqLgsha26j9oSMT35J9xSsAv235C1Tv3gcLpump"
+  },
+  {
+   "symbol": "Make.fun",
+   "time": "02:15",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=63cBSU4XX2jsT9SuRdP5Wch4RmJeL5rZyRVEDMLhpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "63cBSU4XX2jsT9SuRdP5Wch4RmJeL5rZyRVEDMLhpump"
   },
   {
    "symbol": "MAKE",
    "time": "02:14",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 26%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=33xAhJRDtgqEmdDmuTY6NjdcJH88Uu265u7vKF4dh7ho&chainId=1399811149&r=savipww&source=share_link",
    "address": "33xAhJRDtgqEmdDmuTY6NjdcJH88Uu265u7vKF4dh7ho"
   },
@@ -114,23 +122,15 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=DRtU7ipKwKQNabbhUiPLnLRj6nop8NsHRq9nNQTpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "DRtU7ipKwKQNabbhUiPLnLRj6nop8NsHRq9nNQTpump"
-  },
-  {
-   "symbol": "SNP6900",
-   "time": "01:47",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Ar8f2WbHS9uKa5fsNEP3Yf7iDg4W8Xc9WWAcLtJtpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Ar8f2WbHS9uKa5fsNEP3Yf7iDg4W8Xc9WWAcLtJtpump"
   }
  ],
  "funnel": {
   "seen": 74,
   "passed": 3,
   "kills": {
-   "liq $NK": 43,
+   "liq $NK": 44,
    "+N% in Nh": 6,
-   "top N hold N%": 6,
+   "top N hold N%": 7,
    "holders leaving -N% in Nm": 1,
    "copycat of HUANG": 1
   },
@@ -161,7 +161,7 @@
    "state": "ok"
   }
  ],
- "ws": "reconnecting",
+ "ws": "open",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T02:25:51+08:00",
+ "updated_at": "2026-11-24T03:07:38+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
