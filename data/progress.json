@@ -1,5 +1,5 @@
 {
- "updated": "Mon 23 Nov 16:07 MYT",
+ "updated": "Mon 23 Nov 18:02 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -22,6 +22,14 @@
   }
  ],
  "coins": [
+  {
+   "symbol": " $GOAT10",
+   "time": "16:58",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=3znmKzfc3FQGP3fAWBY3TMCZhyoVVwYDHEMApcfZpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "3znmKzfc3FQGP3fAWBY3TMCZhyoVVwYDHEMApcfZpump"
+  },
   {
    "symbol": "MEOWTAXI",
    "time": "15:40",
@@ -125,21 +133,13 @@
    "verdict": "waiting",
    "link": "https://fomo.family/coin?address=6xnA14qbidkfGXCkwWcak6MjqHEuGiveX1cufSQZpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "6xnA14qbidkfGXCkwWcak6MjqHEuGiveX1cufSQZpump"
-  },
-  {
-   "symbol": "SI",
-   "time": "14:01",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=54VRJPUBK7Paza2WnRirUJm5ZwSyaDkDQjD2LkJwccGE&chainId=1399811149&r=savipww&source=share_link",
-   "address": "54VRJPUBK7Paza2WnRirUJm5ZwSyaDkDQjD2LkJwccGE"
   }
  ],
  "funnel": {
   "seen": 50,
   "passed": 3,
   "kills": {
-   "liq $NK": 36,
+   "liq $NK": 35,
    "+N% in Nh": 4,
    "top N hold N%": 2
   },
@@ -170,7 +170,7 @@
    "state": "ok"
   }
  ],
- "ws": "reconnecting",
+ "ws": "open",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -180,7 +180,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-23T16:07:40+08:00",
+ "updated_at": "2026-11-23T18:02:18+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
