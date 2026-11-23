@@ -1,5 +1,5 @@
 {
- "updated": "Mon 23 Nov 23:48 MYT",
+ "updated": "Tue 24 Nov 00:59 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -9,18 +9,7 @@
  "pnl_pct": -2.03,
  "pnl_pct_label": "-2.03%",
  "positions": [],
- "trades": [
-  {
-   "symbol": "COQ",
-   "time": "15:20",
-   "size": "$3.97",
-   "state": "closed",
-   "pnl": "-$2.86",
-   "pnl_pct": -72.0,
-   "reason": "stop",
-   "link": "https://fomo.family/coin?address=C7ynkJv6aYy5ndC6k22M3k8aQzjuHB1QJPZDZk67pump&chainId=1399811149&r=savipww&source=share_link"
-  }
- ],
+ "trades": [],
  "coins": [
   {
    "symbol": "FAFO",
@@ -139,7 +128,7 @@
   "seen": 51,
   "passed": 3,
   "kills": {
-   "liq $NK": 32,
+   "liq $NK": 31,
    "+N% in Nh": 4,
    "top N hold N%": 4
   },
@@ -170,7 +159,7 @@
    "state": "ok"
   }
  ],
- "ws": "connecting",
+ "ws": "open",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -180,7 +169,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-23T23:48:16+08:00",
+ "updated_at": "2026-11-24T00:59:28+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
