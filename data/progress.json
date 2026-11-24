@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 19:58 MYT",
+ "updated": "Tue 24 Nov 20:03 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,14 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "Rockstar",
+   "time": "20:00",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=BLzUf3qMBSZKLz6zA3AimLPoy2AwPuX1MMsWb6FTpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "BLzUf3qMBSZKLz6zA3AimLPoy2AwPuX1MMsWb6FTpump"
+  },
   {
    "symbol": "$PUMPS",
    "time": "17:03",
@@ -114,18 +122,10 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=7oynymbs5zsYriVJvHPBS7ocwX4eNotFeGhbrKtJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "7oynymbs5zsYriVJvHPBS7ocwX4eNotFeGhbrKtJpump"
-  },
-  {
-   "symbol": "EXEN",
-   "time": "11:19",
-   "status": "Scanner killed: +353110% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=DFvxyc6tbNcv8gUz7yF6jvB1KdsTn1Cyd71ms6iJpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "DFvxyc6tbNcv8gUz7yF6jvB1KdsTn1Cyd71ms6iJpump"
   }
  ],
  "funnel": {
-  "seen": 49,
+  "seen": 50,
   "passed": 1,
   "kills": {
    "liq $NK": 31,
@@ -169,7 +169,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T19:58:13+08:00",
+ "updated_at": "2026-11-24T20:03:18+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
