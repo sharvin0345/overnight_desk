@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 18:03 MYT",
+ "updated": "Tue 24 Nov 19:05 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,10 +12,10 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "FwyV2h",
+   "symbol": "$PUMPS",
    "time": "17:03",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=FwyV2hcKTKrgR5qWu9pUgBKG69D7m4AXu9h7qHXLpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "FwyV2hcKTKrgR5qWu9pUgBKG69D7m4AXu9h7qHXLpump"
   },
@@ -125,12 +125,12 @@
   }
  ],
  "funnel": {
-  "seen": 55,
+  "seen": 49,
   "passed": 1,
   "kills": {
-   "top N hold N%": 5,
-   "liq $NK": 32,
+   "liq $NK": 31,
    "+N% in Nh": 4,
+   "top N hold N%": 3,
    "holders leaving -N% in Nm": 1,
    "copycat of HUANG": 1,
    "dropped: unknown to DexScreener": 1
@@ -169,7 +169,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T18:03:47+08:00",
+ "updated_at": "2026-11-24T19:05:26+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
