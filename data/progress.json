@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 09:21 MYT",
+ "updated": "Tue 24 Nov 10:07 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,9 +12,17 @@
  "trades": [],
  "coins": [
   {
+   "symbol": "NEKO",
+   "time": "09:23",
+   "status": "Scanner killed: liq $1.8K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=8JoXyjkwHLmEJZdTHqfz4qxVqHgzLCrDAt53H1K82W1N&chainId=1399811149&r=savipww&source=share_link",
+   "address": "8JoXyjkwHLmEJZdTHqfz4qxVqHgzLCrDAt53H1K82W1N"
+  },
+  {
    "symbol": "STACK",
    "time": "09:05",
-   "status": "Analyst passed (score 79.0)",
+   "status": "Analyst passed (score 79.0), then skip: no dip",
    "verdict": "pass",
    "link": "https://fomo.family/coin?address=gzYHA8qjtFd76w58fEyn7knMdhedzdQuzmmAruwpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "gzYHA8qjtFd76w58fEyn7knMdhedzdQuzmmAruwpump"
@@ -114,22 +122,14 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=8Azsv23uZnZdmeyA6Vg6BagkT1SHEdiK4QqV3vycpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8Azsv23uZnZdmeyA6Vg6BagkT1SHEdiK4QqV3vycpump"
-  },
-  {
-   "symbol": "JENSEN",
-   "time": "02:00",
-   "status": "Scanner killed: copycat of HUANG",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=zZ8C2Mcr39RaAU7xVKE6cfnFd7oeucRJFi3jyPspump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "zZ8C2Mcr39RaAU7xVKE6cfnFd7oeucRJFi3jyPspump"
   }
  ],
  "funnel": {
-  "seen": 71,
+  "seen": 69,
   "passed": 4,
   "kills": {
-   "+N% in Nh": 6,
    "liq $NK": 39,
+   "+N% in Nh": 5,
    "top N hold N%": 7,
    "holders leaving -N% in Nm": 1,
    "copycat of HUANG": 1
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T09:21:53+08:00",
+ "updated_at": "2026-11-24T10:07:11+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
