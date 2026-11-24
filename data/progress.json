@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 09:03 MYT",
+ "updated": "Tue 24 Nov 09:08 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,14 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "STACK",
+   "time": "09:05",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=gzYHA8qjtFd76w58fEyn7knMdhedzdQuzmmAruwpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "gzYHA8qjtFd76w58fEyn7knMdhedzdQuzmmAruwpump"
+  },
   {
    "symbol": "Phil",
    "time": "07:04",
@@ -114,18 +122,10 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=zZ8C2Mcr39RaAU7xVKE6cfnFd7oeucRJFi3jyPspump&chainId=1399811149&r=savipww&source=share_link",
    "address": "zZ8C2Mcr39RaAU7xVKE6cfnFd7oeucRJFi3jyPspump"
-  },
-  {
-   "symbol": "JI",
-   "time": "01:51",
-   "status": "Scanner killed: liq $1.6K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=FLbpDQCoeN5Bqa3YS8MuCtJgyXTbtb2bwudWBv9spump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "FLbpDQCoeN5Bqa3YS8MuCtJgyXTbtb2bwudWBv9spump"
   }
  ],
  "funnel": {
-  "seen": 71,
+  "seen": 72,
   "passed": 3,
   "kills": {
    "+N% in Nh": 6,
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T09:03:17+08:00",
+ "updated_at": "2026-11-24T09:08:21+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
