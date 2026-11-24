@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 19:05 MYT",
+ "updated": "Tue 24 Nov 19:58 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -169,7 +169,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T19:05:26+08:00",
+ "updated_at": "2026-11-24T19:58:13+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
