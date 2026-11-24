@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 15:07 MYT",
+ "updated": "Tue 24 Nov 15:12 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -125,7 +125,7 @@
   }
  ],
  "funnel": {
-  "seen": 61,
+  "seen": 60,
   "passed": 2,
   "kills": {
    "liq $NK": 36,
@@ -168,7 +168,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T15:07:46+08:00",
+ "updated_at": "2026-11-24T15:12:50+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
