@@ -1,16 +1,24 @@
 {
- "updated": "Tue 24 Nov 06:11 MYT",
+ "updated": "Tue 24 Nov 09:03 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
- "session": "2026-11-23",
+ "session": "2026-11-24",
  "balance": "$146.95",
  "cash": "$146.95",
- "pnl_pct": -2.03,
- "pnl_pct_label": "-2.03%",
+ "pnl_pct": 0.0,
+ "pnl_pct_label": "+0.00%",
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "Phil",
+   "time": "07:04",
+   "status": "Scanner killed: liq $9.4K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=GMLSyjZCKGtFwztp2mtT8PDeNUA6WEk7oQoe3QkFpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GMLSyjZCKGtFwztp2mtT8PDeNUA6WEk7oQoe3QkFpump"
+  },
   {
    "symbol": "ELON",
    "time": "05:06",
@@ -114,22 +122,14 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=FLbpDQCoeN5Bqa3YS8MuCtJgyXTbtb2bwudWBv9spump&chainId=1399811149&r=savipww&source=share_link",
    "address": "FLbpDQCoeN5Bqa3YS8MuCtJgyXTbtb2bwudWBv9spump"
-  },
-  {
-   "symbol": "NVIDIA",
-   "time": "01:51",
-   "status": "Scanner killed: liq $1.4K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=UBghjQgbAPykKHw2R9iLN5yMGF5JYcWVK5vdCD8pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "UBghjQgbAPykKHw2R9iLN5yMGF5JYcWVK5vdCD8pump"
   }
  ],
  "funnel": {
-  "seen": 75,
+  "seen": 71,
   "passed": 3,
   "kills": {
-   "liq $NK": 42,
-   "+N% in Nh": 7,
+   "+N% in Nh": 6,
+   "liq $NK": 39,
    "top N hold N%": 7,
    "holders leaving -N% in Nm": 1,
    "copycat of HUANG": 1
@@ -161,7 +161,7 @@
    "state": "ok"
   }
  ],
- "ws": "reconnecting",
+ "ws": "open",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T06:11:46+08:00",
+ "updated_at": "2026-11-24T09:03:17+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
