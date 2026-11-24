@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 13:02 MYT",
+ "updated": "Tue 24 Nov 14:06 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,26 +12,50 @@
  "trades": [],
  "coins": [
   {
+   "symbol": "wind",
+   "time": "13:16",
+   "status": "Scanner killed: liq $0.1K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=3nZSuYJ44wEKZjdWf2D7fGUQn3hrFvhNXSXPvRUMpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "3nZSuYJ44wEKZjdWf2D7fGUQn3hrFvhNXSXPvRUMpump"
+  },
+  {
+   "symbol": "JENSEN",
+   "time": "13:15",
+   "status": "Scanner killed: liq $1.4K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=Br1s7czWrZ6JV33MXocWfC47RsWajES723S6wgeZpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "Br1s7czWrZ6JV33MXocWfC47RsWajES723S6wgeZpump"
+  },
+  {
+   "symbol": "JENSEN",
+   "time": "13:02",
+   "status": "Scanner killed: liq $1.6K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=D8kAk7jUEAybmG43GbssgRBidpiqzZk9pD4PGU4Wpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "D8kAk7jUEAybmG43GbssgRBidpiqzZk9pD4PGU4Wpump"
+  },
+  {
    "symbol": "FHC",
    "time": "12:05",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=DAz5dFnzJMuWRFk6t7dTCFPMAHdbNmWUGqdciXPgpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "DAz5dFnzJMuWRFk6t7dTCFPMAHdbNmWUGqdciXPgpump"
   },
   {
    "symbol": "UP",
    "time": "12:04",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=QAFm8r8Vo3ywFk6hjjhhmVqrwsmJP3BjXu6MFZ3pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "QAFm8r8Vo3ywFk6hjjhhmVqrwsmJP3BjXu6MFZ3pump"
   },
   {
    "symbol": "Rockstar",
    "time": "12:04",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $2.5K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=2YvFDyG2sk3a1cYP7p45LS8Pb74FZAFVLMxUFZd7pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "2YvFDyG2sk3a1cYP7p45LS8Pb74FZAFVLMxUFZd7pump"
   },
@@ -98,38 +122,14 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=GMLSyjZCKGtFwztp2mtT8PDeNUA6WEk7oQoe3QkFpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "GMLSyjZCKGtFwztp2mtT8PDeNUA6WEk7oQoe3QkFpump"
-  },
-  {
-   "symbol": "ELON",
-   "time": "05:06",
-   "status": "Scanner killed: liq $1.5K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=F9jestUaiUFPT4UPfuT9JN8pZVdbMR2LQcHgZwoJpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "F9jestUaiUFPT4UPfuT9JN8pZVdbMR2LQcHgZwoJpump"
-  },
-  {
-   "symbol": "Rockstar",
-   "time": "05:05",
-   "status": "Scanner killed: +438% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=BTz2pNeHz28qq9EaffrdyPnGvefHyd3j46Wtuamnpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "BTz2pNeHz28qq9EaffrdyPnGvefHyd3j46Wtuamnpump"
-  },
-  {
-   "symbol": "ATX",
-   "time": "04:02",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=wopnV84mrZrEgKGxDLYNuZ1xMdZkA8YfXxKkM12pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "wopnV84mrZrEgKGxDLYNuZ1xMdZkA8YfXxKkM12pump"
   }
  ],
  "funnel": {
-  "seen": 65,
+  "seen": 60,
   "passed": 2,
   "kills": {
-   "liq $NK": 33,
-   "+N% in Nh": 6,
+   "liq $NK": 36,
+   "+N% in Nh": 5,
    "top N hold N%": 7,
    "holders leaving -N% in Nm": 1,
    "copycat of HUANG": 1
@@ -168,7 +168,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T13:02:31+08:00",
+ "updated_at": "2026-11-24T14:06:48+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
