@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 22:22 MYT",
+ "updated": "Tue 24 Nov 23:05 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,18 +12,26 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "8cYRPs",
-   "time": "22:22",
+   "symbol": "5",
+   "time": "23:01",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=4qZEEfqSrf4prKQhbcLyeUQqb9UJ8Ja5hCcftusPpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "4qZEEfqSrf4prKQhbcLyeUQqb9UJ8Ja5hCcftusPpump"
+  },
+  {
+   "symbol": "att",
+   "time": "22:22",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=8cYRPsEVgcJJGB4vp9hb8fEcrYpSnwbbeGbCAXrGpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8cYRPsEVgcJJGB4vp9hb8fEcrYpSnwbbeGbCAXrGpump"
   },
   {
-   "symbol": "FDQZVM",
+   "symbol": "SCAMSEM",
    "time": "22:22",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=FDQZVMF5dg1isf1gLotfyrFaoknEtdLziL4rBqqmpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "FDQZVMF5dg1isf1gLotfyrFaoknEtdLziL4rBqqmpump"
   },
@@ -114,21 +122,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=GxHr6tdvmMmih5fUU6fgAiJa6vnVwDbnCUFDN7vh3964&chainId=1399811149&r=savipww&source=share_link",
    "address": "GxHr6tdvmMmih5fUU6fgAiJa6vnVwDbnCUFDN7vh3964"
-  },
-  {
-   "symbol": "wind",
-   "time": "13:16",
-   "status": "Scanner killed: liq $0.1K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=3nZSuYJ44wEKZjdWf2D7fGUQn3hrFvhNXSXPvRUMpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "3nZSuYJ44wEKZjdWf2D7fGUQn3hrFvhNXSXPvRUMpump"
   }
  ],
  "funnel": {
-  "seen": 56,
+  "seen": 57,
   "passed": 1,
   "kills": {
-   "liq $NK": 34,
+   "liq $NK": 36,
    "+N% in Nh": 4,
    "top N hold N%": 3,
    "holders leaving -N% in Nm": 1,
@@ -159,7 +159,7 @@
    "state": "ok"
   }
  ],
- "ws": "open",
+ "ws": "reconnecting",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -169,7 +169,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T22:22:55+08:00",
+ "updated_at": "2026-11-24T23:05:34+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
