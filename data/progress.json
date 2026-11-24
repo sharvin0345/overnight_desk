@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 11:16 MYT",
+ "updated": "Tue 24 Nov 11:21 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,7 +12,23 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "3reEjC",
+   "symbol": "cap",
+   "time": "11:20",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=7oynymbs5zsYriVJvHPBS7ocwX4eNotFeGhbrKtJpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "7oynymbs5zsYriVJvHPBS7ocwX4eNotFeGhbrKtJpump"
+  },
+  {
+   "symbol": "EXEN",
+   "time": "11:19",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=DFvxyc6tbNcv8gUz7yF6jvB1KdsTn1Cyd71ms6iJpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "DFvxyc6tbNcv8gUz7yF6jvB1KdsTn1Cyd71ms6iJpump"
+  },
+  {
+   "symbol": "FATU",
    "time": "11:16",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -106,26 +122,10 @@
    "verdict": "waiting",
    "link": "https://fomo.family/coin?address=EyNKQthNSm2qgVCVV8PLasWWCRt2gBdL5styVJampump&chainId=1399811149&r=savipww&source=share_link",
    "address": "EyNKQthNSm2qgVCVV8PLasWWCRt2gBdL5styVJampump"
-  },
-  {
-   "symbol": "Make.fun",
-   "time": "02:15",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=63cBSU4XX2jsT9SuRdP5Wch4RmJeL5rZyRVEDMLhpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "63cBSU4XX2jsT9SuRdP5Wch4RmJeL5rZyRVEDMLhpump"
-  },
-  {
-   "symbol": "MAKE",
-   "time": "02:14",
-   "status": "Scanner killed: top 10 hold 26%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=33xAhJRDtgqEmdDmuTY6NjdcJH88Uu265u7vKF4dh7ho&chainId=1399811149&r=savipww&source=share_link",
-   "address": "33xAhJRDtgqEmdDmuTY6NjdcJH88Uu265u7vKF4dh7ho"
   }
  ],
  "funnel": {
-  "seen": 66,
+  "seen": 64,
   "passed": 3,
   "kills": {
    "liq $NK": 38,
@@ -170,7 +170,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T11:16:44+08:00",
+ "updated_at": "2026-11-24T11:21:49+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
