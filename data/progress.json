@@ -1,5 +1,5 @@
 {
- "updated": "Tue 24 Nov 15:12 MYT",
+ "updated": "Tue 24 Nov 16:08 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,22 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "GpwtAT",
+   "time": "16:02",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GpwtATmwHGYYCUTxEb5zAzVhsJPSvnzZv3f4R9z1pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GpwtATmwHGYYCUTxEb5zAzVhsJPSvnzZv3f4R9z1pump"
+  },
+  {
+   "symbol": "FOMO",
+   "time": "15:14",
+   "status": "Scanner killed: liq $1.4K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=scmYs29JJqppt99N3HQveMnH4PVEbk4GUdETswypump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "scmYs29JJqppt99N3HQveMnH4PVEbk4GUdETswypump"
+  },
   {
    "symbol": "$Json.",
    "time": "14:07",
@@ -106,31 +122,15 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=GLVQcUcyxSspnoQENdD7dfriZTUFBjvFRG2tL86cpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "GLVQcUcyxSspnoQENdD7dfriZTUFBjvFRG2tL86cpump"
-  },
-  {
-   "symbol": "BOOT",
-   "time": "10:31",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=5vHTWLyNn1GBrD3Q3vKPcukTJTkkgcBcazGsY1xapump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "5vHTWLyNn1GBrD3Q3vKPcukTJTkkgcBcazGsY1xapump"
-  },
-  {
-   "symbol": "NEKO",
-   "time": "09:23",
-   "status": "Scanner killed: liq $1.8K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=8JoXyjkwHLmEJZdTHqfz4qxVqHgzLCrDAt53H1K82W1N&chainId=1399811149&r=savipww&source=share_link",
-   "address": "8JoXyjkwHLmEJZdTHqfz4qxVqHgzLCrDAt53H1K82W1N"
   }
  ],
  "funnel": {
-  "seen": 60,
-  "passed": 2,
+  "seen": 54,
+  "passed": 1,
   "kills": {
-   "liq $NK": 36,
-   "+N% in Nh": 5,
-   "top N hold N%": 7,
+   "top N hold N%": 5,
+   "liq $NK": 31,
+   "+N% in Nh": 4,
    "holders leaving -N% in Nm": 1,
    "copycat of HUANG": 1
   },
@@ -168,7 +168,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-24T15:12:50+08:00",
+ "updated_at": "2026-11-24T16:08:25+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
