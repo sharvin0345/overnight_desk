@@ -1,5 +1,5 @@
 {
- "updated": "Wed 25 Nov 19:34 MYT",
+ "updated": "Wed 25 Nov 19:59 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,6 +12,30 @@
  "trades": [],
  "coins": [
   {
+   "symbol": "MCAT",
+   "time": "19:35",
+   "status": "Analyst refused: dev sold",
+   "verdict": "pass",
+   "link": "https://fomo.family/coin?address=76qv8fh1LKyGYoQikjjzZBi6SMdynQycwzzUWJQspump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "76qv8fh1LKyGYoQikjjzZBi6SMdynQycwzzUWJQspump"
+  },
+  {
+   "symbol": "ONEBASKET",
+   "time": "19:35",
+   "status": "Analyst passed (score 79.0)",
+   "verdict": "pass",
+   "link": "https://fomo.family/coin?address=29Eyv9EnRxN5AQEFMY6EXniUzBXiTuY65pS87SUXpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "29Eyv9EnRxN5AQEFMY6EXniUzBXiTuY65pS87SUXpump"
+  },
+  {
+   "symbol": "RICH$",
+   "time": "19:34",
+   "status": "Scanner killed: liq $3.9K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=9tJZ4cdyZbnFGXjKY3dN9aBz5Pbu26ZBub4VUua5pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "9tJZ4cdyZbnFGXjKY3dN9aBz5Pbu26ZBub4VUua5pump"
+  },
+  {
    "symbol": "EFgcRW",
    "time": "19:32",
    "status": "Waiting for the 10 min mark",
@@ -20,18 +44,18 @@
    "address": "EFgcRWTAZduuVqMyYrGGK2CnhaXxZntfVEAycpWypump"
   },
   {
-   "symbol": "Etv5iA",
+   "symbol": "PHIL",
    "time": "19:32",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $7.9K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=Etv5iAtukKrgVWzrbAur1J8Ajbd3V4VJinLbvzz8Vv7E&chainId=1399811149&r=savipww&source=share_link",
    "address": "Etv5iAtukKrgVWzrbAur1J8Ajbd3V4VJinLbvzz8Vv7E"
   },
   {
-   "symbol": "9NPWct",
+   "symbol": "Internet",
    "time": "19:31",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=9NPWctj8v6E5usFhpTWbpA2rvYSRPerJX1vrjhNQpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "9NPWctj8v6E5usFhpTWbpA2rvYSRPerJX1vrjhNQpump"
   },
@@ -98,37 +122,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=9gCweSWmdzXR99qnEabrbiJtG2M6nsuZPKx4tdmspump&chainId=1399811149&r=savipww&source=share_link",
    "address": "9gCweSWmdzXR99qnEabrbiJtG2M6nsuZPKx4tdmspump"
-  },
-  {
-   "symbol": "GBeG8q",
-   "time": "16:06",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=GBeG8qoLn9f2D8Shsv6iH6CETb2YVTi4A6d9bqvqpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "GBeG8qoLn9f2D8Shsv6iH6CETb2YVTi4A6d9bqvqpump"
-  },
-  {
-   "symbol": "TuRk",
-   "time": "16:06",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Hb5W8Mbb6aeiiv78PXnDpb3eCXHn5gHtiJK9p4Ppump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Hb5W8Mbb6aeiiv78PXnDpb3eCXHn5gHtiJK9p4Ppump"
-  },
-  {
-   "symbol": "MCH",
-   "time": "16:04",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=G3EXYwMFEMHeLKKG4ytz6hTxCgm8UUuLr8Tcn2e8pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "G3EXYwMFEMHeLKKG4ytz6hTxCgm8UUuLr8Tcn2e8pump"
   }
  ],
  "funnel": {
-  "seen": 76,
-  "passed": 4,
+  "seen": 79,
+  "passed": 6,
   "kills": {
-   "liq $NK": 50,
+   "liq $NK": 53,
    "top N hold N%": 4,
    "+N% in Nh": 7,
    "dropped: unknown to DexScreener": 2
@@ -136,7 +136,8 @@
   "refusals": {
    "liquidity down 91%": 1,
    "score 47 < 70": 1,
-   "dev rugged 3 before": 1
+   "dev rugged 3 before": 1,
+   "dev sold": 1
   }
  },
  "bots": [
@@ -171,7 +172,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-25T19:34:02+08:00",
+ "updated_at": "2026-11-25T19:59:36+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
