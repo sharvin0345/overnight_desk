@@ -1,5 +1,5 @@
 {
- "updated": "Wed 25 Nov 13:59 MYT",
+ "updated": "Wed 25 Nov 15:08 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,18 +12,26 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "Dk8idm",
-   "time": "13:59",
+   "symbol": "$ABU",
+   "time": "15:01",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=ALvKMXnZPmxJsAqKkms6igdkkLYxThmXMagTTM4Epump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "ALvKMXnZPmxJsAqKkms6igdkkLYxThmXMagTTM4Epump"
+  },
+  {
+   "symbol": "Btc",
+   "time": "13:59",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=Dk8idm98tTdBB7ni1rFhPkvCw8U5Si4M6oRpcR6ipump&chainId=1399811149&r=savipww&source=share_link",
    "address": "Dk8idm98tTdBB7ni1rFhPkvCw8U5Si4M6oRpcR6ipump"
   },
   {
-   "symbol": "4VN8x6",
+   "symbol": "SANTA",
    "time": "13:58",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $4.1K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=4VN8x65TVfqmaALWU2saqQu6b9J9cH353cdqn2ompump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4VN8x65TVfqmaALWU2saqQu6b9J9cH353cdqn2ompump"
   },
@@ -114,21 +122,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump&chainId=1399811149&r=savipww&source=share_link",
    "address": "DMFzUvtfEmE697ZfEDqAXErd9MrBDEs66V5WiRvApump"
-  },
-  {
-   "symbol": "UGOS",
-   "time": "09:25",
-   "status": "Scanner killed: +120640% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=6JnwSS4pnoZdw1aBqW6aYGVpeFZ7Rd6kGiWCVDvpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "6JnwSS4pnoZdw1aBqW6aYGVpeFZ7Rd6kGiWCVDvpump"
   }
  ],
  "funnel": {
-  "seen": 64,
+  "seen": 63,
   "passed": 4,
   "kills": {
-   "liq $NK": 43,
+   "liq $NK": 41,
    "dropped: unknown to DexScreener": 2,
    "top N hold N%": 3,
    "+N% in Nh": 7
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-25T13:59:40+08:00",
+ "updated_at": "2026-11-25T15:08:09+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
