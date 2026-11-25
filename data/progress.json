@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 06:33 MYT",
+ "updated": "Thu 26 Nov 06:38 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -23,7 +23,55 @@
  ],
  "coins": [
   {
-   "symbol": "8NWUHt",
+   "symbol": "BLIND",
+   "time": "06:38",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=4ebNSy8WG45Dpa5Bp3hasFdDTNmcVo6aQp8LPACPpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "4ebNSy8WG45Dpa5Bp3hasFdDTNmcVo6aQp8LPACPpump"
+  },
+  {
+   "symbol": "Chhxwk",
+   "time": "06:37",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=Chhxwk6ScDxcgj3mErYbzqJANXBDKp53uiySJB72pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "Chhxwk6ScDxcgj3mErYbzqJANXBDKp53uiySJB72pump"
+  },
+  {
+   "symbol": "JcjiP4",
+   "time": "06:37",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=JcjiP48tM35Z76UJ26M5EnNH7h8M9Q5oKrzTm3Jpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "JcjiP48tM35Z76UJ26M5EnNH7h8M9Q5oKrzTm3Jpump"
+  },
+  {
+   "symbol": "DDCOIN",
+   "time": "06:34",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=B1nVo6qiPv2fT4io2xgBPWPdcbqyzVJiDK5PRzXkpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "B1nVo6qiPv2fT4io2xgBPWPdcbqyzVJiDK5PRzXkpump"
+  },
+  {
+   "symbol": "EETXcv",
+   "time": "06:34",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=EETXcvYFyQCyUbvgR1TP1k4BEXfZ3GCDjhUQ68Pppump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "EETXcvYFyQCyUbvgR1TP1k4BEXfZ3GCDjhUQ68Pppump"
+  },
+  {
+   "symbol": "SI",
+   "time": "06:33",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=vzPHvLA6997zgn7WPcfpQwgWTWDZ1wJznYqQrQXfr5M&chainId=1399811149&r=savipww&source=share_link",
+   "address": "vzPHvLA6997zgn7WPcfpQwgWTWDZ1wJznYqQrQXfr5M"
+  },
+  {
+   "symbol": "JENSEN",
    "time": "06:33",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -47,7 +95,7 @@
    "address": "4M82GknnHV9jQHxRP1nYybJecRixxnWiaQgckavYpump"
   },
   {
-   "symbol": "hHRVtS",
+   "symbol": "$MOOBOO",
    "time": "06:32",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -85,64 +133,16 @@
    "verdict": "waiting",
    "link": "https://fomo.family/coin?address=9w6QTJczaw1aP5GLry3wRJoFjkzs6DRSB56VwVCdpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "9w6QTJczaw1aP5GLry3wRJoFjkzs6DRSB56VwVCdpump"
-  },
-  {
-   "symbol": "FOMO",
-   "time": "06:28",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=wpL5xhb45JVR6g7nLJyWSW99NBcvBHnazHQSQtHpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "wpL5xhb45JVR6g7nLJyWSW99NBcvBHnazHQSQtHpump"
-  },
-  {
-   "symbol": "CREEP",
-   "time": "06:27",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=4CsztmFWH8uby7Woqpe7R8nRKvvcCGLHp9J8hyCMpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "4CsztmFWH8uby7Woqpe7R8nRKvvcCGLHp9J8hyCMpump"
-  },
-  {
-   "symbol": "Grodia",
-   "time": "06:26",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump"
-  },
-  {
-   "symbol": "Butternald",
-   "time": "06:26",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=GfmUuA4cXUGLzwqq3UQrMp5KeLmDi4Fmy1MiXrAKpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "GfmUuA4cXUGLzwqq3UQrMp5KeLmDi4Fmy1MiXrAKpump"
-  },
-  {
-   "symbol": "ㅤ",
-   "time": "06:24",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=Ac8qKuiuYAdFoLYqgJKVR7YF3VhkpNmyLHkgVNzxpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Ac8qKuiuYAdFoLYqgJKVR7YF3VhkpNmyLHkgVNzxpump"
-  },
-  {
-   "symbol": "Bjxcya",
-   "time": "06:22",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=BjxcyaVMkVgzPYXPufJ8jeZj3ACcVKcNiPU2cz3Mpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "BjxcyaVMkVgzPYXPufJ8jeZj3ACcVKcNiPU2cz3Mpump"
   }
  ],
  "funnel": {
-  "seen": 108,
+  "seen": 114,
   "passed": 6,
   "kills": {
    "liq $NK": 54,
    "dropped: unknown to DexScreener": 6,
-   "top N hold N%": 6,
-   "+N% in Nh": 8
+   "top N hold N%": 7,
+   "+N% in Nh": 9
   },
   "refusals": {
    "dev rugged 3 before": 1,
@@ -182,7 +182,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T06:33:23+08:00",
+ "updated_at": "2026-11-26T06:38:28+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 141.19,
  "cash_usd": 141.19
