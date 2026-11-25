@@ -1,5 +1,5 @@
 {
- "updated": "Wed 25 Nov 16:04 MYT",
+ "updated": "Wed 25 Nov 16:09 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,46 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "Gzz8Cz",
+   "time": "16:09",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=Gzz8CzEWhyciye8DpSPTpFwXat53TNhBkunRPCtvpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "Gzz8CzEWhyciye8DpSPTpFwXat53TNhBkunRPCtvpump"
+  },
+  {
+   "symbol": "PUMP",
+   "time": "16:07",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=9gCweSWmdzXR99qnEabrbiJtG2M6nsuZPKx4tdmspump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "9gCweSWmdzXR99qnEabrbiJtG2M6nsuZPKx4tdmspump"
+  },
+  {
+   "symbol": "GBeG8q",
+   "time": "16:06",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GBeG8qoLn9f2D8Shsv6iH6CETb2YVTi4A6d9bqvqpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GBeG8qoLn9f2D8Shsv6iH6CETb2YVTi4A6d9bqvqpump"
+  },
+  {
+   "symbol": "TuRk",
+   "time": "16:06",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=Hb5W8Mbb6aeiiv78PXnDpb3eCXHn5gHtiJK9p4Ppump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "Hb5W8Mbb6aeiiv78PXnDpb3eCXHn5gHtiJK9p4Ppump"
+  },
+  {
+   "symbol": "MCH",
+   "time": "16:04",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=G3EXYwMFEMHeLKKG4ytz6hTxCgm8UUuLr8Tcn2e8pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "G3EXYwMFEMHeLKKG4ytz6hTxCgm8UUuLr8Tcn2e8pump"
+  },
   {
    "symbol": "PORTAL",
    "time": "16:02",
@@ -82,50 +122,10 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=8R9BbkmuogDs84FyxRqMK14j9io9vKJnht9AyCJWpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8R9BbkmuogDs84FyxRqMK14j9io9vKJnht9AyCJWpump"
-  },
-  {
-   "symbol": "yacine",
-   "time": "13:22",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=HLoTKTC6YapoQvVRYgcCYwEvqfoSjnAMg37D31fepump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "HLoTKTC6YapoQvVRYgcCYwEvqfoSjnAMg37D31fepump"
-  },
-  {
-   "symbol": "FUCKCANCER",
-   "time": "13:00",
-   "status": "Scanner killed: +252% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump"
-  },
-  {
-   "symbol": "❤️",
-   "time": "12:00",
-   "status": "Scanner killed: liq $3.5K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=3CMPJrWpF8GMgcuuU6s1Bi6a85S1iqR3Zh2aE5kSpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "3CMPJrWpF8GMgcuuU6s1Bi6a85S1iqR3Zh2aE5kSpump"
-  },
-  {
-   "symbol": "GOTF",
-   "time": "11:24",
-   "status": "Scanner killed: +61824% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=LSnRheVGdW8btmu5hgVsWaYF7BYmQAMn7NKEt93pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "LSnRheVGdW8btmu5hgVsWaYF7BYmQAMn7NKEt93pump"
-  },
-  {
-   "symbol": "$LCS",
-   "time": "10:06",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=6JC4pzudjPC3ENdHJRiSWE1bHtrdoei6W28hMtC7pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "6JC4pzudjPC3ENdHJRiSWE1bHtrdoei6W28hMtC7pump"
   }
  ],
  "funnel": {
-  "seen": 64,
+  "seen": 69,
   "passed": 4,
   "kills": {
    "liq $NK": 43,
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-25T16:04:48+08:00",
+ "updated_at": "2026-11-25T16:09:52+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
