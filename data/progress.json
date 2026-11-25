@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 03:00 MYT",
+ "updated": "Thu 26 Nov 04:59 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,14 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "PrekqL",
+   "time": "04:59",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S&chainId=1399811149&r=savipww&source=share_link",
+   "address": "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S"
+  },
   {
    "symbol": "DXB4jg",
    "time": "03:00",
@@ -114,21 +122,13 @@
    "verdict": "waiting",
    "link": "https://fomo.family/coin?address=EFgcRWTAZduuVqMyYrGGK2CnhaXxZntfVEAycpWypump&chainId=1399811149&r=savipww&source=share_link",
    "address": "EFgcRWTAZduuVqMyYrGGK2CnhaXxZntfVEAycpWypump"
-  },
-  {
-   "symbol": "PHIL",
-   "time": "19:32",
-   "status": "Scanner killed: liq $7.9K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Etv5iAtukKrgVWzrbAur1J8Ajbd3V4VJinLbvzz8Vv7E&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Etv5iAtukKrgVWzrbAur1J8Ajbd3V4VJinLbvzz8Vv7E"
   }
  ],
  "funnel": {
-  "seen": 64,
+  "seen": 63,
   "passed": 4,
   "kills": {
-   "liq $NK": 42,
+   "liq $NK": 36,
    "dropped: unknown to DexScreener": 3,
    "top N hold N%": 3,
    "+N% in Nh": 7
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T03:00:45+08:00",
+ "updated_at": "2026-11-26T04:59:22+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
