@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 04:59 MYT",
+ "updated": "Thu 26 Nov 05:27 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,22 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "8vSuXC",
+   "time": "05:26",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=8vSuXCFgQFSmTx4okY687iMyZYSSSmaytnr4WSdFpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "8vSuXCFgQFSmTx4okY687iMyZYSSSmaytnr4WSdFpump"
+  },
+  {
+   "symbol": "34XMth",
+   "time": "05:26",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=34XMthfq38Pu66WfmvWNLPghqwkLXz2c9y8KgYmYpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "34XMthfq38Pu66WfmvWNLPghqwkLXz2c9y8KgYmYpump"
+  },
   {
    "symbol": "PrekqL",
    "time": "04:59",
@@ -106,22 +122,6 @@
    "verdict": "pass",
    "link": "https://fomo.family/coin?address=29Eyv9EnRxN5AQEFMY6EXniUzBXiTuY65pS87SUXpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "29Eyv9EnRxN5AQEFMY6EXniUzBXiTuY65pS87SUXpump"
-  },
-  {
-   "symbol": "RICH$",
-   "time": "19:34",
-   "status": "Scanner killed: liq $3.9K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=9tJZ4cdyZbnFGXjKY3dN9aBz5Pbu26ZBub4VUua5pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "9tJZ4cdyZbnFGXjKY3dN9aBz5Pbu26ZBub4VUua5pump"
-  },
-  {
-   "symbol": "EFgcRW",
-   "time": "19:32",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=EFgcRWTAZduuVqMyYrGGK2CnhaXxZntfVEAycpWypump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "EFgcRWTAZduuVqMyYrGGK2CnhaXxZntfVEAycpWypump"
   }
  ],
  "funnel": {
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T04:59:22+08:00",
+ "updated_at": "2026-11-26T05:27:23+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
