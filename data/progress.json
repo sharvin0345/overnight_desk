@@ -1,5 +1,5 @@
 {
- "updated": "Wed 25 Nov 08:04 MYT",
+ "updated": "Wed 25 Nov 08:09 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,7 +12,39 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "A8buA9",
+   "symbol": "ANT",
+   "time": "08:08",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=3KpJECKYSTJoXY956MnUzYSm8R7fhXGDtVTiFMBppump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "3KpJECKYSTJoXY956MnUzYSm8R7fhXGDtVTiFMBppump"
+  },
+  {
+   "symbol": "Susie",
+   "time": "08:06",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=DLweuDypd3BQJAWaBZhVh8YhpdNCzpgr1EaK7794pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "DLweuDypd3BQJAWaBZhVh8YhpdNCzpgr1EaK7794pump"
+  },
+  {
+   "symbol": "TENEX",
+   "time": "08:06",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GpCiqGaWm9Lk98r8iFr5W32dkFMVq8suBRDdkfqbpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GpCiqGaWm9Lk98r8iFr5W32dkFMVq8suBRDdkfqbpump"
+  },
+  {
+   "symbol": "GG",
+   "time": "08:06",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=ApnoY8DtJrZuVtp3TTasyzfqYHe7Mf3qQkvbBjx6pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "ApnoY8DtJrZuVtp3TTasyzfqYHe7Mf3qQkvbBjx6pump"
+  },
+  {
+   "symbol": "CHIMA",
    "time": "08:04",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -30,8 +62,8 @@
   {
    "symbol": "8VWS2n",
    "time": "07:06",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: dropped: unknown to DexScreener",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=8VWS2nPc6CyZWSb3LTKajrYTUCATFponNTW59XLxpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8VWS2nPc6CyZWSb3LTKajrYTUCATFponNTW59XLxpump"
   },
@@ -90,47 +122,15 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=H8abgzqAbjrm6qPyaymwew4EzAHkVLJevsmMbh9wpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "H8abgzqAbjrm6qPyaymwew4EzAHkVLJevsmMbh9wpump"
-  },
-  {
-   "symbol": "AFtZrW",
-   "time": "03:03",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=AFtZrW3RTbtZYZHr4EkGLmT2Xa2TG5DEWBMdXtimpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "AFtZrW3RTbtZYZHr4EkGLmT2Xa2TG5DEWBMdXtimpump"
-  },
-  {
-   "symbol": "PI",
-   "time": "02:16",
-   "status": "Scanner killed: liq $1.7K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=EWd3qbxBLSNMzFtkj26NE7rmoeWjnXSWMkAvgDQ9pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "EWd3qbxBLSNMzFtkj26NE7rmoeWjnXSWMkAvgDQ9pump"
-  },
-  {
-   "symbol": "CHIRSTMAS",
-   "time": "02:15",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=5vK878WRPoJXcXZsFF2hFdbmHc4SdQcAcS8yQxZ4pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "5vK878WRPoJXcXZsFF2hFdbmHc4SdQcAcS8yQxZ4pump"
-  },
-  {
-   "symbol": "SCF",
-   "time": "02:14",
-   "status": "Scanner killed: liq $5.7K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Az7dYDicMc4G9hwnkeQYwHi6Fop1711C7hABcrWzpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Az7dYDicMc4G9hwnkeQYwHi6Fop1711C7hABcrWzpump"
   }
  ],
  "funnel": {
-  "seen": 54,
+  "seen": 58,
   "passed": 5,
   "kills": {
    "liq $NK": 37,
    "+N% in Nh": 2,
-   "dropped: unknown to DexScreener": 1,
+   "dropped: unknown to DexScreener": 2,
    "top N hold N%": 2
   },
   "refusals": {
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-25T08:04:51+08:00",
+ "updated_at": "2026-11-25T08:09:56+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 146.95,
  "cash_usd": 146.95
