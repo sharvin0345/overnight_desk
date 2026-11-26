@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 11:35 MYT",
+ "updated": "Thu 26 Nov 11:40 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -43,18 +43,26 @@
  ],
  "coins": [
   {
-   "symbol": "GREMLIN",
-   "time": "11:29",
+   "symbol": "Kresekat",
+   "time": "11:39",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=E9LxjW3bTHv2w4FF4fKJoURDDy2DgJmnDdY6mctqpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "E9LxjW3bTHv2w4FF4fKJoURDDy2DgJmnDdY6mctqpump"
+  },
+  {
+   "symbol": "GREMLIN",
+   "time": "11:29",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=2iju24jug2AiLAB2M3uLZvHWDFJPNwiGqhZGPQxepump&chainId=1399811149&r=savipww&source=share_link",
    "address": "2iju24jug2AiLAB2M3uLZvHWDFJPNwiGqhZGPQxepump"
   },
   {
    "symbol": "FOMO",
    "time": "11:29",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $1.4K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=4j1vM7M2uQDMYypJDNa9BVyW8hp6DWzor5D4ru6dpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4j1vM7M2uQDMYypJDNa9BVyW8hp6DWzor5D4ru6dpump"
   },
@@ -145,22 +153,14 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump"
-  },
-  {
-   "symbol": "$Goon",
-   "time": "10:50",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=FcGiHhg9VJFh9LpBpaFaw3G9Lz3N7mKJo6MGuB68pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "FcGiHhg9VJFh9LpBpaFaw3G9Lz3N7mKJo6MGuB68pump"
   }
  ],
  "funnel": {
-  "seen": 134,
+  "seen": 135,
   "passed": 11,
   "kills": {
    "+N% in Nh": 7,
-   "liq $NK": 70,
+   "liq $NK": 72,
    "top N hold N%": 13,
    "dropped: unknown to DexScreener": 8,
    "copycat of cap": 1,
@@ -203,7 +203,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T11:35:14+08:00",
+ "updated_at": "2026-11-26T11:40:19+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 125.42,
  "cash_usd": 125.42
