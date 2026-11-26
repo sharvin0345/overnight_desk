@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 14:35 MYT",
+ "updated": "Thu 26 Nov 14:40 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,6 +53,14 @@
  ],
  "coins": [
   {
+   "symbol": "ATX",
+   "time": "14:39",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=4RXMvnG6eHYBqbMhw3qCVE4ifmudMZR7sFaX9SgYpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "4RXMvnG6eHYBqbMhw3qCVE4ifmudMZR7sFaX9SgYpump"
+  },
+  {
    "symbol": "itsmekwek",
    "time": "14:32",
    "status": "Waiting for the 10 min mark",
@@ -79,8 +87,8 @@
   {
    "symbol": "$TATE",
    "time": "14:28",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=4xdPQUEGps8wriY8s38QEFhZn5YB2DRgn9D46pSJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4xdPQUEGps8wriY8s38QEFhZn5YB2DRgn9D46pSJpump"
   },
@@ -155,21 +163,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump"
-  },
-  {
-   "symbol": "miuu",
-   "time": "12:38",
-   "status": "Scanner killed: liq $7.5K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=3iDmzk4UZXp6zoQRudyB5vPqDGjqUjsFGwreUd6upump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "3iDmzk4UZXp6zoQRudyB5vPqDGjqUjsFGwreUd6upump"
   }
  ],
  "funnel": {
-  "seen": 158,
+  "seen": 159,
   "passed": 12,
   "kills": {
-   "liq $NK": 84,
+   "liq $NK": 85,
    "top N hold N%": 21,
    "dropped: unknown to DexScreener": 8,
    "+N% in Nh": 6,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T14:35:37+08:00",
+ "updated_at": "2026-11-26T14:40:42+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
