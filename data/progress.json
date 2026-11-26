@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 13:06 MYT",
+ "updated": "Thu 26 Nov 14:06 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -52,6 +52,14 @@
   }
  ],
  "coins": [
+  {
+   "symbol": "ONPAROLE",
+   "time": "14:03",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=35egn9hLVgqo2apb3QUJsRayE8zvgtFEvvgSdUojpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "35egn9hLVgqo2apb3QUJsRayE8zvgtFEvvgSdUojpump"
+  },
   {
    "symbol": "FOMO",
    "time": "12:40",
@@ -155,24 +163,16 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=7S3TUfJZw9PrLqkM4YkSJ85ng17RjHpM8zwZf7Lopump&chainId=1399811149&r=savipww&source=share_link",
    "address": "7S3TUfJZw9PrLqkM4YkSJ85ng17RjHpM8zwZf7Lopump"
-  },
-  {
-   "symbol": "TEEETHY",
-   "time": "11:56",
-   "status": "Scanner killed: top 10 hold 44%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump"
   }
  ],
  "funnel": {
-  "seen": 153,
+  "seen": 148,
   "passed": 12,
   "kills": {
-   "+N% in Nh": 7,
-   "liq $NK": 83,
+   "liq $NK": 79,
    "top N hold N%": 20,
    "dropped: unknown to DexScreener": 8,
+   "+N% in Nh": 6,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
   },
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T13:06:55+08:00",
+ "updated_at": "2026-11-26T14:06:58+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
