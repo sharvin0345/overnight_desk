@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 20:06 MYT",
+ "updated": "Thu 26 Nov 21:10 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -52,6 +52,14 @@
   }
  ],
  "coins": [
+  {
+   "symbol": "Pinky",
+   "time": "20:07",
+   "status": "Scanner killed: liq $1.4K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=BXzYTVqrvQhrTTL5HH1DdcD5o48xC217ed6Bkm7opump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "BXzYTVqrvQhrTTL5HH1DdcD5o48xC217ed6Bkm7opump"
+  },
   {
    "symbol": "LMAO",
    "time": "18:07",
@@ -155,14 +163,6 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=4RXMvnG6eHYBqbMhw3qCVE4ifmudMZR7sFaX9SgYpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4RXMvnG6eHYBqbMhw3qCVE4ifmudMZR7sFaX9SgYpump"
-  },
-  {
-   "symbol": "itsmekwek",
-   "time": "14:32",
-   "status": "Scanner killed: liq $1.4K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=DYKzUfMhug8j3Begn8gm2LkpYLXvJL33JnCn1DCZpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "DYKzUfMhug8j3Begn8gm2LkpYLXvJL33JnCn1DCZpump"
   }
  ],
  "funnel": {
@@ -172,7 +172,7 @@
    "top N hold N%": 23,
    "+N% in Nh": 7,
    "dropped: unknown to DexScreener": 7,
-   "liq $NK": 78,
+   "liq $NK": 79,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
   },
@@ -203,7 +203,7 @@
    "state": "ok"
   }
  ],
- "ws": "open",
+ "ws": "reconnecting",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T20:06:49+08:00",
+ "updated_at": "2026-11-26T21:10:19+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
