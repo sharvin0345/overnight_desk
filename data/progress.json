@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 14:30 MYT",
+ "updated": "Thu 26 Nov 14:35 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,6 +53,30 @@
  ],
  "coins": [
   {
+   "symbol": "itsmekwek",
+   "time": "14:32",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=DYKzUfMhug8j3Begn8gm2LkpYLXvJL33JnCn1DCZpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "DYKzUfMhug8j3Begn8gm2LkpYLXvJL33JnCn1DCZpump"
+  },
+  {
+   "symbol": "Grok AI",
+   "time": "14:31",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=YArspJG2Fmkh91mZjtVfvtYVXLhgjgjQnoRYgLTpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "YArspJG2Fmkh91mZjtVfvtYVXLhgjgjQnoRYgLTpump"
+  },
+  {
+   "symbol": "$ABU",
+   "time": "14:30",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GhVRofiPYtq3oyKgeQoGf1HqWqYpJy4RmPkKMQptpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GhVRofiPYtq3oyKgeQoGf1HqWqYpJy4RmPkKMQptpump"
+  },
+  {
    "symbol": "$TATE",
    "time": "14:28",
    "status": "Waiting for the 10 min mark",
@@ -63,24 +87,24 @@
   {
    "symbol": "ANSEM",
    "time": "14:24",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $1.7K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=2WYicw2ddgP5MEFmULTpBDgrbpfjnsYXhm5jCtbRpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "2WYicw2ddgP5MEFmULTpBDgrbpfjnsYXhm5jCtbRpump"
   },
   {
    "symbol": "GOBBL",
    "time": "14:22",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=D2uZ7h5SYt184QZTEEjFeXgZMnN4tVkmUKKYqEmcpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "D2uZ7h5SYt184QZTEEjFeXgZMnN4tVkmUKKYqEmcpump"
   },
   {
    "symbol": "BMW",
    "time": "14:20",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=7gJre5zRQ6A8tv5a9R1w9Ww1mZkaV2t5EV98q8W4pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "7gJre5zRQ6A8tv5a9R1w9Ww1mZkaV2t5EV98q8W4pump"
   },
@@ -139,37 +163,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=3iDmzk4UZXp6zoQRudyB5vPqDGjqUjsFGwreUd6upump&chainId=1399811149&r=savipww&source=share_link",
    "address": "3iDmzk4UZXp6zoQRudyB5vPqDGjqUjsFGwreUd6upump"
-  },
-  {
-   "symbol": "FOMOCAT",
-   "time": "12:30",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=G7dy9AEABKZLXHmxzBkziSRzChdJ3zGDeVg3NRPkpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "G7dy9AEABKZLXHmxzBkziSRzChdJ3zGDeVg3NRPkpump"
-  },
-  {
-   "symbol": "TBB",
-   "time": "12:29",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=3HKGP61QuAW3fPovrwgzwsw1VfpDCUHSYwUbgUZEpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "3HKGP61QuAW3fPovrwgzwsw1VfpDCUHSYwUbgUZEpump"
-  },
-  {
-   "symbol": "CHAPPY",
-   "time": "12:25",
-   "status": "Scanner killed: liq $4.4K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=AVEjDSfPUQYc48bS6c4XCT881gw81T6dhh2MwABfpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "AVEjDSfPUQYc48bS6c4XCT881gw81T6dhh2MwABfpump"
   }
  ],
  "funnel": {
-  "seen": 155,
+  "seen": 158,
   "passed": 12,
   "kills": {
-   "liq $NK": 81,
+   "liq $NK": 84,
    "top N hold N%": 21,
    "dropped: unknown to DexScreener": 8,
    "+N% in Nh": 6,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T14:30:33+08:00",
+ "updated_at": "2026-11-26T14:35:37+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
