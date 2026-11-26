@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 12:31 MYT",
+ "updated": "Thu 26 Nov 12:36 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,7 +53,7 @@
  ],
  "coins": [
   {
-   "symbol": "G7dy9A",
+   "symbol": "FOMOCAT",
    "time": "12:30",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -71,24 +71,24 @@
   {
    "symbol": "CHAPPY",
    "time": "12:25",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $4.4K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=AVEjDSfPUQYc48bS6c4XCT881gw81T6dhh2MwABfpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "AVEjDSfPUQYc48bS6c4XCT881gw81T6dhh2MwABfpump"
   },
   {
    "symbol": "PIPLUP",
    "time": "12:21",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 36%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=31FPq989jXKUCExaFydsgipgevCYyuDPRg8n7enspump&chainId=1399811149&r=savipww&source=share_link",
    "address": "31FPq989jXKUCExaFydsgipgevCYyuDPRg8n7enspump"
   },
   {
    "symbol": "Grok AI",
    "time": "12:21",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 36%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=3iwcmhCD3SVxo3MSEyYuoPj3eXrpp3hchC73vPo8pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "3iwcmhCD3SVxo3MSEyYuoPj3eXrpp3hchC73vPo8pump"
   },
@@ -169,9 +169,9 @@
   "seen": 151,
   "passed": 12,
   "kills": {
-   "liq $NK": 79,
+   "liq $NK": 80,
    "+N% in Nh": 6,
-   "top N hold N%": 18,
+   "top N hold N%": 20,
    "dropped: unknown to DexScreener": 8,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T12:31:48+08:00",
+ "updated_at": "2026-11-26T12:36:52+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
