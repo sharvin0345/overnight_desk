@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 11:20 MYT",
+ "updated": "Thu 26 Nov 11:25 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -43,6 +43,30 @@
  ],
  "coins": [
   {
+   "symbol": "🌙 BUCK",
+   "time": "11:22",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=BE7NjZVU2YQR1rF44qpcTN3jty7atNNNkRtgvu5Hpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "BE7NjZVU2YQR1rF44qpcTN3jty7atNNNkRtgvu5Hpump"
+  },
+  {
+   "symbol": "WiggeR",
+   "time": "11:21",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=4bMyzDHzmFWPvrYydpPhgmxuvUXnWPAo5S68NRTtpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "4bMyzDHzmFWPvrYydpPhgmxuvUXnWPAo5S68NRTtpump"
+  },
+  {
+   "symbol": "LIQ",
+   "time": "11:20",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=CK5VrtRsBXjjGnr5RbdxPXaDixim5s6XMEWN29rXdLiQ&chainId=1399811149&r=savipww&source=share_link",
+   "address": "CK5VrtRsBXjjGnr5RbdxPXaDixim5s6XMEWN29rXdLiQ"
+  },
+  {
    "symbol": "SOTONG",
    "time": "11:19",
    "status": "Waiting for the 10 min mark",
@@ -53,16 +77,16 @@
   {
    "symbol": "coin",
    "time": "11:13",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: copycat of DongCoin",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=CMmfK9KFjFRPgAEkixMpchNnA5zTz7xYdQkSSc8Upump&chainId=1399811149&r=savipww&source=share_link",
    "address": "CMmfK9KFjFRPgAEkixMpchNnA5zTz7xYdQkSSc8Upump"
   },
   {
    "symbol": "Namaste ",
    "time": "11:10",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=Gbmk5HT3t2H4QrrQxgieL37av68CfET1Y4BuMUNQpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "Gbmk5HT3t2H4QrrQxgieL37av68CfET1Y4BuMUNQpump"
   },
@@ -129,41 +153,18 @@
    "verdict": "bought",
    "link": "https://fomo.family/coin?address=34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds&chainId=1399811149&r=savipww&source=share_link",
    "address": "34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds"
-  },
-  {
-   "symbol": "GTAVI",
-   "time": "10:41",
-   "status": "Scanner killed: top 10 hold 36%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=J9Y4BBPASJcvFFfHHFnykdeSLeTQNmHUQhX3qmL2pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "J9Y4BBPASJcvFFfHHFnykdeSLeTQNmHUQhX3qmL2pump"
-  },
-  {
-   "symbol": "RASMR",
-   "time": "10:39",
-   "status": "Scanner killed: liq $5.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=3c5xbyTvKU8DFrhDrckDNMXtcjbKqyiBQd3WNYNmpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "3c5xbyTvKU8DFrhDrckDNMXtcjbKqyiBQd3WNYNmpump"
-  },
-  {
-   "symbol": "SOL",
-   "time": "10:35",
-   "status": "Scanner killed: liq $0.1K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=73xyhixJXj2Jm78GbhPjSvDyyLADawnwMkN4S5capump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "73xyhixJXj2Jm78GbhPjSvDyyLADawnwMkN4S5capump"
   }
  ],
  "funnel": {
-  "seen": 130,
+  "seen": 132,
   "passed": 11,
   "kills": {
    "+N% in Nh": 7,
-   "liq $NK": 65,
+   "liq $NK": 66,
    "top N hold N%": 13,
-   "dropped: unknown to DexScreener": 7,
-   "copycat of cap": 1
+   "dropped: unknown to DexScreener": 8,
+   "copycat of cap": 1,
+   "copycat of DongCoin": 1
   },
   "refusals": {
    "dev sold": 4,
@@ -202,7 +203,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T11:20:01+08:00",
+ "updated_at": "2026-11-26T11:25:05+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 125.42,
  "cash_usd": 125.42
