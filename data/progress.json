@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 14:45 MYT",
+ "updated": "Thu 26 Nov 14:50 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,7 +53,23 @@
  ],
  "coins": [
   {
-   "symbol": "78aHmg",
+   "symbol": "NVIDIA",
+   "time": "14:49",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=8mvMJjhRx3yW2VxzXLhhXjZ1fkJiPULEgVEbw6wVpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "8mvMJjhRx3yW2VxzXLhhXjZ1fkJiPULEgVEbw6wVpump"
+  },
+  {
+   "symbol": "BASKET",
+   "time": "14:48",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=8HxFnmS3K1Gizx8mUU9889yYeDi5M12cAYfa4A8Jpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "8HxFnmS3K1Gizx8mUU9889yYeDi5M12cAYfa4A8Jpump"
+  },
+  {
+   "symbol": "WALLETX",
    "time": "14:45",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -79,8 +95,8 @@
   {
    "symbol": "ATX",
    "time": "14:39",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: +628553% in 1h",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=4RXMvnG6eHYBqbMhw3qCVE4ifmudMZR7sFaX9SgYpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4RXMvnG6eHYBqbMhw3qCVE4ifmudMZR7sFaX9SgYpump"
   },
@@ -147,32 +163,16 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=C32ZRmDooNpbR4R3KCWUzbVQPdi3fTiUGbSMsktWpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "C32ZRmDooNpbR4R3KCWUzbVQPdi3fTiUGbSMsktWpump"
-  },
-  {
-   "symbol": "554dPF",
-   "time": "14:13",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=554dPFprmeu9J2mPKpJ41rxKDQgfsNvj9XGgiykepump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "554dPFprmeu9J2mPKpJ41rxKDQgfsNvj9XGgiykepump"
-  },
-  {
-   "symbol": "$NPC",
-   "time": "14:12",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Di89tBdRfjiYWY1bbKaG9PzwoCZ3FrSEbmnjKTqppump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Di89tBdRfjiYWY1bbKaG9PzwoCZ3FrSEbmnjKTqppump"
   }
  ],
  "funnel": {
-  "seen": 162,
+  "seen": 164,
   "passed": 12,
   "kills": {
    "liq $NK": 87,
    "top N hold N%": 22,
    "dropped: unknown to DexScreener": 8,
-   "+N% in Nh": 6,
+   "+N% in Nh": 7,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
   },
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T14:45:47+08:00",
+ "updated_at": "2026-11-26T14:50:51+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
