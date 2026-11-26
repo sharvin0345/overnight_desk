@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 01:09 MYT",
+ "updated": "Fri 27 Nov 03:05 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,18 +12,18 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "AtmZQT",
+   "symbol": "TRUMP",
    "time": "01:05",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $5.9K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=AtmZQTxVHZN7yk7a2yodSmQhXgFT4jTPYXd5FrmY5v2t&chainId=1399811149&r=savipww&source=share_link",
    "address": "AtmZQTxVHZN7yk7a2yodSmQhXgFT4jTPYXd5FrmY5v2t"
   },
   {
    "symbol": "8XF1me",
    "time": "01:05",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: dropped: unknown to DexScreener",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=8XF1meWRPWBbQDZyVWPQJzgMd6mdCev3tEvTucNppump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8XF1meWRPWBbQDZyVWPQJzgMd6mdCev3tEvTucNppump"
   },
@@ -125,13 +125,13 @@
   }
  ],
  "funnel": {
-  "seen": 150,
+  "seen": 149,
   "passed": 11,
   "kills": {
-   "dropped: unknown to DexScreener": 7,
-   "liq $NK": 83,
+   "liq $NK": 84,
    "+N% in Nh": 6,
    "top N hold N%": 22,
+   "dropped: unknown to DexScreener": 7,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
   },
@@ -162,7 +162,7 @@
    "state": "ok"
   }
  ],
- "ws": "reconnecting",
+ "ws": "open",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -172,7 +172,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T01:09:14+08:00",
+ "updated_at": "2026-11-27T03:05:43+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
