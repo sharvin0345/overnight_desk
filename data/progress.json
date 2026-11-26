@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 07:02 MYT",
+ "updated": "Thu 26 Nov 08:00 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -23,10 +23,26 @@
  ],
  "coins": [
   {
-   "symbol": "Loki",
-   "time": "06:42",
+   "symbol": "bucket",
+   "time": "07:58",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=9Ryrrb1MCPhVCwPLRiV7pHMGzN81YX5Sgdo517Svpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "9Ryrrb1MCPhVCwPLRiV7pHMGzN81YX5Sgdo517Svpump"
+  },
+  {
+   "symbol": "PVE",
+   "time": "07:03",
+   "status": "Analyst passed (score 97.0)",
+   "verdict": "pass",
+   "link": "https://fomo.family/coin?address=BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6&chainId=1399811149&r=savipww&source=share_link",
+   "address": "BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6"
+  },
+  {
+   "symbol": "Loki",
+   "time": "06:42",
+   "status": "Analyst passed (score 83.0), then skip: crash -60%",
+   "verdict": "pass",
    "link": "https://fomo.family/coin?address=5mgqgmEkWQFv648G49WZMzTwXk3ZpqAkMBXpa1uopump&chainId=1399811149&r=savipww&source=share_link",
    "address": "5mgqgmEkWQFv648G49WZMzTwXk3ZpqAkMBXpa1uopump"
   },
@@ -117,27 +133,11 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=G6zdJREEw5oBDeswFm7pvJ1NbUtKntAQoBxH6fzFpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "G6zdJREEw5oBDeswFm7pvJ1NbUtKntAQoBxH6fzFpump"
-  },
-  {
-   "symbol": "2cvGg4",
-   "time": "06:32",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=2cvGg473vtkz6ZLBhrWFogJQ49SyufUxSyhLaQVzpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "2cvGg473vtkz6ZLBhrWFogJQ49SyufUxSyhLaQVzpump"
-  },
-  {
-   "symbol": "29kdmT",
-   "time": "06:31",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=29kdmTX4VXPUHCQi2rkTp7NnRDcWLFeJhk7doEtipump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "29kdmTX4VXPUHCQi2rkTp7NnRDcWLFeJhk7doEtipump"
   }
  ],
  "funnel": {
-  "seen": 115,
-  "passed": 6,
+  "seen": 112,
+  "passed": 8,
   "kills": {
    "liq $NK": 65,
    "dropped: unknown to DexScreener": 7,
@@ -182,7 +182,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T07:02:08+08:00",
+ "updated_at": "2026-11-26T08:00:23+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 141.19,
  "cash_usd": 141.19
