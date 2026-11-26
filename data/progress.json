@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 10:36 MYT",
+ "updated": "Thu 26 Nov 10:41 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -33,7 +33,23 @@
  ],
  "coins": [
   {
-   "symbol": "73xyhi",
+   "symbol": "J9Y4BB",
+   "time": "10:41",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=J9Y4BBPASJcvFFfHHFnykdeSLeTQNmHUQhX3qmL2pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "J9Y4BBPASJcvFFfHHFnykdeSLeTQNmHUQhX3qmL2pump"
+  },
+  {
+   "symbol": "RASMR",
+   "time": "10:39",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=3c5xbyTvKU8DFrhDrckDNMXtcjbKqyiBQd3WNYNmpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "3c5xbyTvKU8DFrhDrckDNMXtcjbKqyiBQd3WNYNmpump"
+  },
+  {
+   "symbol": "SOL",
    "time": "10:35",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -59,16 +75,16 @@
   {
    "symbol": "Froovik",
    "time": "10:30",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $8.8K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=6VQDGxwCFohfx6fnzW56hR14pskEuH1LJWGzzhMFpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "6VQDGxwCFohfx6fnzW56hR14pskEuH1LJWGzzhMFpump"
   },
   {
    "symbol": "LOKI",
    "time": "10:30",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $9.9K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=GGofisgFCBVnd9WGzx69C9KCzCTh7VJ5CLwKtUDtpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "GGofisgFCBVnd9WGzx69C9KCzCTh7VJ5CLwKtUDtpump"
   },
@@ -127,29 +143,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=4qKEwwmuScrY1JwxaqqPZ8HLMyLt77HuRmJxwzePpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4qKEwwmuScrY1JwxaqqPZ8HLMyLt77HuRmJxwzePpump"
-  },
-  {
-   "symbol": "GTAVI",
-   "time": "10:07",
-   "status": "Analyst refused: dev sold",
-   "verdict": "pass",
-   "link": "https://fomo.family/coin?address=DHB3AnvnPJvnchoJNvuWcP9QVZW2yUfcQdqmQMoJpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "DHB3AnvnPJvnchoJNvuWcP9QVZW2yUfcQdqmQMoJpump"
-  },
-  {
-   "symbol": "Disaster",
-   "time": "10:06",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=9DubY3hJovUCNLk7us5vQ7eZzXnmN2xJhiR7PnuXpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "9DubY3hJovUCNLk7us5vQ7eZzXnmN2xJhiR7PnuXpump"
   }
  ],
  "funnel": {
-  "seen": 117,
+  "seen": 119,
   "passed": 9,
   "kills": {
-   "liq $NK": 58,
+   "liq $NK": 60,
    "+N% in Nh": 7,
    "top N hold N%": 9,
    "dropped: unknown to DexScreener": 7
@@ -191,7 +191,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T10:36:41+08:00",
+ "updated_at": "2026-11-26T10:41:46+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 130.06,
  "cash_usd": 130.06
