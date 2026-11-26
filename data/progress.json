@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 11:40 MYT",
+ "updated": "Thu 26 Nov 11:45 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -42,6 +42,14 @@
   }
  ],
  "coins": [
+  {
+   "symbol": "SOTONG",
+   "time": "11:41",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=HAVbDao9NE8JYmyV97AJrKvf5dtYZqcwPrr8BX2jpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "HAVbDao9NE8JYmyV97AJrKvf5dtYZqcwPrr8BX2jpump"
+  },
   {
    "symbol": "Kresekat",
    "time": "11:39",
@@ -145,18 +153,10 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=2wpMMYDXuqieitbRSDKLVjLd3Xd9xLLdjBNzzH1ppump&chainId=1399811149&r=savipww&source=share_link",
    "address": "2wpMMYDXuqieitbRSDKLVjLd3Xd9xLLdjBNzzH1ppump"
-  },
-  {
-   "symbol": "MCAP",
-   "time": "10:53",
-   "status": "Scanner killed: copycat of cap",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "AYij72wApHA4qGV5RbZJhsAVocjHtJJhgoUswV3tpump"
   }
  ],
  "funnel": {
-  "seen": 135,
+  "seen": 136,
   "passed": 11,
   "kills": {
    "+N% in Nh": 7,
@@ -203,7 +203,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T11:40:19+08:00",
+ "updated_at": "2026-11-26T11:45:23+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 125.42,
  "cash_usd": 125.42
