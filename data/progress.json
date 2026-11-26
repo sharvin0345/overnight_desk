@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 12:26 MYT",
+ "updated": "Thu 26 Nov 12:31 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,7 +53,23 @@
  ],
  "coins": [
   {
-   "symbol": "AVEjDS",
+   "symbol": "G7dy9A",
+   "time": "12:30",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=G7dy9AEABKZLXHmxzBkziSRzChdJ3zGDeVg3NRPkpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "G7dy9AEABKZLXHmxzBkziSRzChdJ3zGDeVg3NRPkpump"
+  },
+  {
+   "symbol": "TBB",
+   "time": "12:29",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=3HKGP61QuAW3fPovrwgzwsw1VfpDCUHSYwUbgUZEpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "3HKGP61QuAW3fPovrwgzwsw1VfpDCUHSYwUbgUZEpump"
+  },
+  {
+   "symbol": "CHAPPY",
    "time": "12:25",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -147,26 +163,10 @@
    "verdict": "bought",
    "link": "https://fomo.family/coin?address=HkywsKMf5FDj7QpgRE3BoE2nJqJauxEVbGjpnYe6pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "HkywsKMf5FDj7QpgRE3BoE2nJqJauxEVbGjpnYe6pump"
-  },
-  {
-   "symbol": "$LONELY",
-   "time": "11:45",
-   "status": "Scanner killed: liq $0.1K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=6drAjWkYU24htT2wkXtiET1WzCsQLmE1LtmZqMkCpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "6drAjWkYU24htT2wkXtiET1WzCsQLmE1LtmZqMkCpump"
-  },
-  {
-   "symbol": "JENSEN",
-   "time": "11:45",
-   "status": "Scanner killed: liq $1.4K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=GzwZMGLpBVEeDGMg3XeZXobJ7KR9CUhWrWvoo44epump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "GzwZMGLpBVEeDGMg3XeZXobJ7KR9CUhWrWvoo44epump"
   }
  ],
  "funnel": {
-  "seen": 149,
+  "seen": 151,
   "passed": 12,
   "kills": {
    "liq $NK": 79,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T12:26:44+08:00",
+ "updated_at": "2026-11-26T12:31:48+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
