@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 10:16 MYT",
+ "updated": "Thu 26 Nov 10:21 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -33,6 +33,30 @@
  ],
  "coins": [
   {
+   "symbol": "8JqkCE",
+   "time": "10:20",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=8JqkCEzu4QABycv1XkmtNQjXkK7Rg95a6WuAoZMCpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "8JqkCEzu4QABycv1XkmtNQjXkK7Rg95a6WuAoZMCpump"
+  },
+  {
+   "symbol": "NETHER",
+   "time": "10:19",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GkL4cJLAL3354wLgS6mZJKKUBVzvUY1FUN47zZNgGWEq&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GkL4cJLAL3354wLgS6mZJKKUBVzvUY1FUN47zZNgGWEq"
+  },
+  {
+   "symbol": "APA",
+   "time": "10:18",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=CiHVfmUFubGcu9uTyLiQfMDRjUxgBFkXpf1QeHs7pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "CiHVfmUFubGcu9uTyLiQfMDRjUxgBFkXpf1QeHs7pump"
+  },
+  {
    "symbol": "CI",
    "time": "10:13",
    "status": "Waiting for the 10 min mark",
@@ -59,24 +83,24 @@
   {
    "symbol": "Pair",
    "time": "10:08",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 26%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=4qKEwwmuScrY1JwxaqqPZ8HLMyLt77HuRmJxwzePpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4qKEwwmuScrY1JwxaqqPZ8HLMyLt77HuRmJxwzePpump"
   },
   {
    "symbol": "GTAVI",
    "time": "10:07",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Analyst refused: dev sold",
+   "verdict": "pass",
    "link": "https://fomo.family/coin?address=DHB3AnvnPJvnchoJNvuWcP9QVZW2yUfcQdqmQMoJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "DHB3AnvnPJvnchoJNvuWcP9QVZW2yUfcQdqmQMoJpump"
   },
   {
    "symbol": "Disaster",
    "time": "10:06",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=9DubY3hJovUCNLk7us5vQ7eZzXnmN2xJhiR7PnuXpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "9DubY3hJovUCNLk7us5vQ7eZzXnmN2xJhiR7PnuXpump"
   },
@@ -119,43 +143,19 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump"
-  },
-  {
-   "symbol": "GWxRPk",
-   "time": "08:01",
-   "status": "Scanner killed: dropped: unknown to DexScreener",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=GWxRPk42vzpsf1Ys4gaam9thiGjaGRoV9DzZWjQ9pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "GWxRPk42vzpsf1Ys4gaam9thiGjaGRoV9DzZWjQ9pump"
-  },
-  {
-   "symbol": "bucket",
-   "time": "07:58",
-   "status": "Scanner killed: liq $1.8K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=9Ryrrb1MCPhVCwPLRiV7pHMGzN81YX5Sgdo517Svpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "9Ryrrb1MCPhVCwPLRiV7pHMGzN81YX5Sgdo517Svpump"
-  },
-  {
-   "symbol": "PVE",
-   "time": "07:03",
-   "status": "Bought, then stop -11.13",
-   "verdict": "bought",
-   "link": "https://fomo.family/coin?address=BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6&chainId=1399811149&r=savipww&source=share_link",
-   "address": "BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6"
   }
  ],
  "funnel": {
-  "seen": 109,
-  "passed": 7,
+  "seen": 112,
+  "passed": 8,
   "kills": {
-   "liq $NK": 55,
+   "liq $NK": 56,
    "+N% in Nh": 6,
-   "top N hold N%": 7,
+   "top N hold N%": 8,
    "dropped: unknown to DexScreener": 7
   },
   "refusals": {
-   "dev sold": 2,
+   "dev sold": 3,
    "no data: dev": 1
   }
  },
@@ -191,7 +191,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T10:16:23+08:00",
+ "updated_at": "2026-11-26T10:21:28+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 130.06,
  "cash_usd": 130.06
