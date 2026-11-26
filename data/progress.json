@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 17:07 MYT",
+ "updated": "Thu 26 Nov 18:06 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,10 +53,18 @@
  ],
  "coins": [
   {
+   "symbol": "pnp-lean",
+   "time": "17:08",
+   "status": "Scanner killed: liq $1.8K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=AfJBDMQ9NYtDssHK22xZ9v3SubrrR1kczzaQA1sQb5rB&chainId=1399811149&r=savipww&source=share_link",
+   "address": "AfJBDMQ9NYtDssHK22xZ9v3SubrrR1kczzaQA1sQb5rB"
+  },
+  {
    "symbol": "ELON",
    "time": "17:05",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=67QukvqWpwb29zBxvJpwyRY7wQnCq8T9vaAcSRCBpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "67QukvqWpwb29zBxvJpwyRY7wQnCq8T9vaAcSRCBpump"
   },
@@ -155,23 +163,15 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=YArspJG2Fmkh91mZjtVfvtYVXLhgjgjQnoRYgLTpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "YArspJG2Fmkh91mZjtVfvtYVXLhgjgjQnoRYgLTpump"
-  },
-  {
-   "symbol": "$ABU",
-   "time": "14:30",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=GhVRofiPYtq3oyKgeQoGf1HqWqYpJy4RmPkKMQptpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "GhVRofiPYtq3oyKgeQoGf1HqWqYpJy4RmPkKMQptpump"
   }
  ],
  "funnel": {
-  "seen": 157,
+  "seen": 156,
   "passed": 13,
   "kills": {
-   "liq $NK": 81,
    "top N hold N%": 24,
    "dropped: unknown to DexScreener": 8,
+   "liq $NK": 81,
    "+N% in Nh": 7,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
@@ -203,7 +203,7 @@
    "state": "ok"
   }
  ],
- "ws": "open",
+ "ws": "connecting",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T17:07:56+08:00",
+ "updated_at": "2026-11-26T18:06:26+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
