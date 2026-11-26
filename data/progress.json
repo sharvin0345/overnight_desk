@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 11:30 MYT",
+ "updated": "Thu 26 Nov 11:35 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -43,7 +43,7 @@
  ],
  "coins": [
   {
-   "symbol": "2iju24",
+   "symbol": "GREMLIN",
    "time": "11:29",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -61,24 +61,24 @@
   {
    "symbol": "🌙 BUCK",
    "time": "11:22",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=BE7NjZVU2YQR1rF44qpcTN3jty7atNNNkRtgvu5Hpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "BE7NjZVU2YQR1rF44qpcTN3jty7atNNNkRtgvu5Hpump"
   },
   {
    "symbol": "WiggeR",
    "time": "11:21",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $2.9K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=4bMyzDHzmFWPvrYydpPhgmxuvUXnWPAo5S68NRTtpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4bMyzDHzmFWPvrYydpPhgmxuvUXnWPAo5S68NRTtpump"
   },
   {
    "symbol": "LIQ",
    "time": "11:20",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $5.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=CK5VrtRsBXjjGnr5RbdxPXaDixim5s6XMEWN29rXdLiQ&chainId=1399811149&r=savipww&source=share_link",
    "address": "CK5VrtRsBXjjGnr5RbdxPXaDixim5s6XMEWN29rXdLiQ"
   },
@@ -160,7 +160,7 @@
   "passed": 11,
   "kills": {
    "+N% in Nh": 7,
-   "liq $NK": 67,
+   "liq $NK": 70,
    "top N hold N%": 13,
    "dropped: unknown to DexScreener": 8,
    "copycat of cap": 1,
@@ -203,7 +203,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T11:30:10+08:00",
+ "updated_at": "2026-11-26T11:35:14+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 125.42,
  "cash_usd": 125.42
