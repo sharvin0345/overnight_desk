@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 21:10 MYT",
+ "updated": "Thu 26 Nov 22:09 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -166,13 +166,13 @@
   }
  ],
  "funnel": {
-  "seen": 149,
+  "seen": 146,
   "passed": 11,
   "kills": {
-   "top N hold N%": 23,
    "+N% in Nh": 7,
    "dropped: unknown to DexScreener": 7,
    "liq $NK": 79,
+   "top N hold N%": 22,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
   },
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T21:10:19+08:00",
+ "updated_at": "2026-11-26T22:09:46+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
