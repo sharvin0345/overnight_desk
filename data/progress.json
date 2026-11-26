@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 23:14 MYT",
+ "updated": "Fri 27 Nov 00:15 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -9,70 +9,37 @@
  "pnl_pct": -14.8,
  "pnl_pct_label": "-14.80%",
  "positions": [],
- "trades": [
-  {
-   "symbol": "2",
-   "time": "12:03",
-   "size": "$15.05",
-   "state": "closed",
-   "pnl": "-$5.13",
-   "pnl_pct": -34.1,
-   "reason": "stop",
-   "link": "https://fomo.family/coin?address=HkywsKMf5FDj7QpgRE3BoE2nJqJauxEVbGjpnYe6pump&chainId=1399811149&r=savipww&source=share_link"
-  },
-  {
-   "symbol": "STUDS",
-   "time": "11:02",
-   "size": "$15.61",
-   "state": "closed",
-   "pnl": "-$4.64",
-   "pnl_pct": -29.7,
-   "reason": "stop",
-   "link": "https://fomo.family/coin?address=34J9VrBeJ2dWActyAMpoNBKvoxZCqQz3SivmnnmSTUds&chainId=1399811149&r=savipww&source=share_link"
-  },
-  {
-   "symbol": "PVE",
-   "time": "08:01",
-   "size": "$16.94",
-   "state": "closed",
-   "pnl": "-$11.13",
-   "pnl_pct": -65.7,
-   "reason": "stop",
-   "link": "https://fomo.family/coin?address=BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6&chainId=1399811149&r=savipww&source=share_link"
-  },
-  {
-   "symbol": "Grinch",
-   "time": "06:18",
-   "size": "$17.63",
-   "state": "closed",
-   "pnl": "-$5.77",
-   "pnl_pct": -32.7,
-   "reason": "stop",
-   "link": "https://fomo.family/coin?address=J1b5HnRzmXsYK5akPTFtBR7B4E74JG8eyULodd7ypump&chainId=1399811149&r=savipww&source=share_link"
-  }
- ],
+ "trades": [],
  "coins": [
   {
-   "symbol": "3KQP9a",
-   "time": "23:08",
+   "symbol": "GaHKmW",
+   "time": "00:05",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GaHKmW73oqGt7dTc2x4VxfBH5KcAZkeet9UJYweXpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GaHKmW73oqGt7dTc2x4VxfBH5KcAZkeet9UJYweXpump"
+  },
+  {
+   "symbol": "FIX6900",
+   "time": "23:08",
+   "status": "Scanner killed: liq $1.7K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=3KQP9amhEyYwCGs3rrF5vwWyd6SRFKYSqZorbGA7pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "3KQP9amhEyYwCGs3rrF5vwWyd6SRFKYSqZorbGA7pump"
   },
   {
    "symbol": "Sal",
    "time": "23:08",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=F4oRJBGgkhavrckdeJciutSK36jgLQpiAwaiq8nJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "F4oRJBGgkhavrckdeJciutSK36jgLQpiAwaiq8nJpump"
   },
   {
    "symbol": "$AURA",
    "time": "23:08",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=7SEUM4zprbEgGhYNaAGRjcYMHVZYTrfBsoWiaZSSpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "7SEUM4zprbEgGhYNaAGRjcYMHVZYTrfBsoWiaZSSpump"
   },
@@ -155,23 +122,15 @@
    "verdict": "pass",
    "link": "https://fomo.family/coin?address=8mvMJjhRx3yW2VxzXLhhXjZ1fkJiPULEgVEbw6wVpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8mvMJjhRx3yW2VxzXLhhXjZ1fkJiPULEgVEbw6wVpump"
-  },
-  {
-   "symbol": "BASKET",
-   "time": "14:48",
-   "status": "Scanner killed: liq $1.4K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=8HxFnmS3K1Gizx8mUU9889yYeDi5M12cAYfa4A8Jpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "8HxFnmS3K1Gizx8mUU9889yYeDi5M12cAYfa4A8Jpump"
   }
  ],
  "funnel": {
   "seen": 149,
   "passed": 11,
   "kills": {
-   "+N% in Nh": 7,
    "dropped: unknown to DexScreener": 7,
-   "liq $NK": 79,
+   "liq $NK": 82,
+   "+N% in Nh": 6,
    "top N hold N%": 22,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
@@ -213,7 +172,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T23:14:34+08:00",
+ "updated_at": "2026-11-27T00:15:03+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
