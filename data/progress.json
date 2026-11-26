@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 12:21 MYT",
+ "updated": "Thu 26 Nov 12:26 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,7 +53,15 @@
  ],
  "coins": [
   {
-   "symbol": "31FPq9",
+   "symbol": "AVEjDS",
+   "time": "12:25",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=AVEjDSfPUQYc48bS6c4XCT881gw81T6dhh2MwABfpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "AVEjDSfPUQYc48bS6c4XCT881gw81T6dhh2MwABfpump"
+  },
+  {
+   "symbol": "PIPLUP",
    "time": "12:21",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -61,7 +69,7 @@
    "address": "31FPq989jXKUCExaFydsgipgevCYyuDPRg8n7enspump"
   },
   {
-   "symbol": "3iwcmh",
+   "symbol": "Grok AI",
    "time": "12:21",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -155,18 +163,10 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=GzwZMGLpBVEeDGMg3XeZXobJ7KR9CUhWrWvoo44epump&chainId=1399811149&r=savipww&source=share_link",
    "address": "GzwZMGLpBVEeDGMg3XeZXobJ7KR9CUhWrWvoo44epump"
-  },
-  {
-   "symbol": "SOTONG",
-   "time": "11:41",
-   "status": "Scanner killed: top 10 hold 63%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=HAVbDao9NE8JYmyV97AJrKvf5dtYZqcwPrr8BX2jpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "HAVbDao9NE8JYmyV97AJrKvf5dtYZqcwPrr8BX2jpump"
   }
  ],
  "funnel": {
-  "seen": 148,
+  "seen": 149,
   "passed": 12,
   "kills": {
    "liq $NK": 79,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T12:21:39+08:00",
+ "updated_at": "2026-11-26T12:26:44+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
