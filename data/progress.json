@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 10:21 MYT",
+ "updated": "Thu 26 Nov 10:26 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -33,7 +33,7 @@
  ],
  "coins": [
   {
-   "symbol": "8JqkCE",
+   "symbol": "GTA 6 Coin",
    "time": "10:20",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -59,24 +59,24 @@
   {
    "symbol": "CI",
    "time": "10:13",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 42%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=3XQeJEFVsB1C3pBEiUwVgRZ2TDG913Feg9nV1kK6pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "3XQeJEFVsB1C3pBEiUwVgRZ2TDG913Feg9nV1kK6pump"
   },
   {
    "symbol": "UBI",
    "time": "10:12",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: +34912% in 1h",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=ZQzMnWD4qC6LzWC86Af1Zzq9YWEQocACsqdtG28pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "ZQzMnWD4qC6LzWC86Af1Zzq9YWEQocACsqdtG28pump"
   },
   {
    "symbol": "$GTA6",
    "time": "10:12",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=672adgXh3xEHBt2DgUAVBCbBsbcGzDm5Um58fNWBpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "672adgXh3xEHBt2DgUAVBCbBsbcGzDm5Um58fNWBpump"
   },
@@ -149,9 +149,9 @@
   "seen": 112,
   "passed": 8,
   "kills": {
-   "liq $NK": 56,
-   "+N% in Nh": 6,
-   "top N hold N%": 8,
+   "liq $NK": 57,
+   "+N% in Nh": 7,
+   "top N hold N%": 9,
    "dropped: unknown to DexScreener": 7
   },
   "refusals": {
@@ -191,7 +191,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T10:21:28+08:00",
+ "updated_at": "2026-11-26T10:26:32+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 130.06,
  "cash_usd": 130.06
