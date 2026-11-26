@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 16:59 MYT",
+ "updated": "Thu 26 Nov 17:07 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -52,6 +52,14 @@
   }
  ],
  "coins": [
+  {
+   "symbol": "ELON",
+   "time": "17:05",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=67QukvqWpwb29zBxvJpwyRY7wQnCq8T9vaAcSRCBpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "67QukvqWpwb29zBxvJpwyRY7wQnCq8T9vaAcSRCBpump"
+  },
   {
    "symbol": "DARKPOOL",
    "time": "16:07",
@@ -155,21 +163,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=GhVRofiPYtq3oyKgeQoGf1HqWqYpJy4RmPkKMQptpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "GhVRofiPYtq3oyKgeQoGf1HqWqYpJy4RmPkKMQptpump"
-  },
-  {
-   "symbol": "$TATE",
-   "time": "14:28",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=4xdPQUEGps8wriY8s38QEFhZn5YB2DRgn9D46pSJpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "4xdPQUEGps8wriY8s38QEFhZn5YB2DRgn9D46pSJpump"
   }
  ],
  "funnel": {
-  "seen": 158,
+  "seen": 157,
   "passed": 13,
   "kills": {
-   "liq $NK": 87,
+   "liq $NK": 81,
    "top N hold N%": 24,
    "dropped: unknown to DexScreener": 8,
    "+N% in Nh": 7,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T16:59:52+08:00",
+ "updated_at": "2026-11-26T17:07:56+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
