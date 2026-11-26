@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 18:06 MYT",
+ "updated": "Thu 26 Nov 20:06 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -52,6 +52,14 @@
   }
  ],
  "coins": [
+  {
+   "symbol": "LMAO",
+   "time": "18:07",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=7MYYv9U3ChJeA4zn2YsYwYVpcehHfx7YWEH4gSdipump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "7MYYv9U3ChJeA4zn2YsYwYVpcehHfx7YWEH4gSdipump"
+  },
   {
    "symbol": "pnp-lean",
    "time": "17:08",
@@ -155,29 +163,21 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=DYKzUfMhug8j3Begn8gm2LkpYLXvJL33JnCn1DCZpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "DYKzUfMhug8j3Begn8gm2LkpYLXvJL33JnCn1DCZpump"
-  },
-  {
-   "symbol": "Grok AI",
-   "time": "14:31",
-   "status": "Scanner killed: top 10 hold 29%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=YArspJG2Fmkh91mZjtVfvtYVXLhgjgjQnoRYgLTpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "YArspJG2Fmkh91mZjtVfvtYVXLhgjgjQnoRYgLTpump"
   }
  ],
  "funnel": {
-  "seen": 156,
-  "passed": 13,
+  "seen": 149,
+  "passed": 11,
   "kills": {
-   "top N hold N%": 24,
-   "dropped: unknown to DexScreener": 8,
-   "liq $NK": 81,
+   "top N hold N%": 23,
    "+N% in Nh": 7,
+   "dropped: unknown to DexScreener": 7,
+   "liq $NK": 78,
    "copycat of cap": 1,
    "copycat of DongCoin": 1
   },
   "refusals": {
-   "dev sold": 5,
+   "dev sold": 4,
    "no data: dev": 1
   }
  },
@@ -203,7 +203,7 @@
    "state": "ok"
   }
  ],
- "ws": "connecting",
+ "ws": "open",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T18:06:26+08:00",
+ "updated_at": "2026-11-26T20:06:49+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
