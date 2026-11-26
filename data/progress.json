@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 10:26 MYT",
+ "updated": "Thu 26 Nov 10:31 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -33,10 +33,34 @@
  ],
  "coins": [
   {
-   "symbol": "GTA 6 Coin",
-   "time": "10:20",
+   "symbol": "PI",
+   "time": "10:31",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=9p61PNUZryWrfhUE7cH7rfu7wBP24TJxzvkgX4d7pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "9p61PNUZryWrfhUE7cH7rfu7wBP24TJxzvkgX4d7pump"
+  },
+  {
+   "symbol": "6VQDGx",
+   "time": "10:30",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=6VQDGxwCFohfx6fnzW56hR14pskEuH1LJWGzzhMFpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "6VQDGxwCFohfx6fnzW56hR14pskEuH1LJWGzzhMFpump"
+  },
+  {
+   "symbol": "LOKI",
+   "time": "10:30",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=GGofisgFCBVnd9WGzx69C9KCzCTh7VJ5CLwKtUDtpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "GGofisgFCBVnd9WGzx69C9KCzCTh7VJ5CLwKtUDtpump"
+  },
+  {
+   "symbol": "GTA 6 Coin",
+   "time": "10:20",
+   "status": "Analyst refused: dev sold",
+   "verdict": "pass",
    "link": "https://fomo.family/coin?address=8JqkCEzu4QABycv1XkmtNQjXkK7Rg95a6WuAoZMCpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8JqkCEzu4QABycv1XkmtNQjXkK7Rg95a6WuAoZMCpump"
   },
@@ -51,8 +75,8 @@
   {
    "symbol": "APA",
    "time": "10:18",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=CiHVfmUFubGcu9uTyLiQfMDRjUxgBFkXpf1QeHs7pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "CiHVfmUFubGcu9uTyLiQfMDRjUxgBFkXpf1QeHs7pump"
   },
@@ -119,43 +143,19 @@
    "verdict": "waiting",
    "link": "https://fomo.family/coin?address=4oZqAT8xgFviPyU6jygJc4gzN2SPy1SBJC1W7UdDpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4oZqAT8xgFviPyU6jygJc4gzN2SPy1SBJC1W7UdDpump"
-  },
-  {
-   "symbol": "8ZskPR",
-   "time": "08:06",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=8ZskPRZ81XcmHymGdwr9LwBzzuiHEkfAeFe5rfjYpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "8ZskPRZ81XcmHymGdwr9LwBzzuiHEkfAeFe5rfjYpump"
-  },
-  {
-   "symbol": "NEFELIBATA",
-   "time": "08:03",
-   "status": "Scanner killed: liq $1.5K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=45wGzHzs3egykGAgdAN4TfGmt7E8UfGTaRucjUYXpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "45wGzHzs3egykGAgdAN4TfGmt7E8UfGTaRucjUYXpump"
-  },
-  {
-   "symbol": "Pumpcat",
-   "time": "08:02",
-   "status": "Scanner killed: +1057% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump"
   }
  ],
  "funnel": {
-  "seen": 112,
-  "passed": 8,
+  "seen": 115,
+  "passed": 9,
   "kills": {
-   "liq $NK": 57,
+   "liq $NK": 58,
    "+N% in Nh": 7,
    "top N hold N%": 9,
    "dropped: unknown to DexScreener": 7
   },
   "refusals": {
-   "dev sold": 3,
+   "dev sold": 4,
    "no data: dev": 1
   }
  },
@@ -191,7 +191,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T10:26:32+08:00",
+ "updated_at": "2026-11-26T10:31:36+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 130.06,
  "cash_usd": 130.06
