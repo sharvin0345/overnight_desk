@@ -1,5 +1,5 @@
 {
- "updated": "Thu 26 Nov 14:06 MYT",
+ "updated": "Thu 26 Nov 14:20 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -53,10 +53,34 @@
  ],
  "coins": [
   {
-   "symbol": "ONPAROLE",
-   "time": "14:03",
+   "symbol": "GTA",
+   "time": "14:19",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=C32ZRmDooNpbR4R3KCWUzbVQPdi3fTiUGbSMsktWpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "C32ZRmDooNpbR4R3KCWUzbVQPdi3fTiUGbSMsktWpump"
+  },
+  {
+   "symbol": "554dPF",
+   "time": "14:13",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=554dPFprmeu9J2mPKpJ41rxKDQgfsNvj9XGgiykepump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "554dPFprmeu9J2mPKpJ41rxKDQgfsNvj9XGgiykepump"
+  },
+  {
+   "symbol": "$NPC",
+   "time": "14:12",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=Di89tBdRfjiYWY1bbKaG9PzwoCZ3FrSEbmnjKTqppump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "Di89tBdRfjiYWY1bbKaG9PzwoCZ3FrSEbmnjKTqppump"
+  },
+  {
+   "symbol": "ONPAROLE",
+   "time": "14:03",
+   "status": "Scanner killed: top 10 hold 29%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=35egn9hLVgqo2apb3QUJsRayE8zvgtFEvvgSdUojpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "35egn9hLVgqo2apb3QUJsRayE8zvgtFEvvgSdUojpump"
   },
@@ -139,38 +163,14 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=4pBegkSFhFQGjoTpT7tMbrPuAck9KLSHcmcqyFVxpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4pBegkSFhFQGjoTpT7tMbrPuAck9KLSHcmcqyFVxpump"
-  },
-  {
-   "symbol": "MEMO",
-   "time": "12:05",
-   "status": "Scanner killed: liq $1.8K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=XY5WnBs9GBN51ayWbiaSKmiwk5ZqKoFh9enHXuPpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "XY5WnBs9GBN51ayWbiaSKmiwk5ZqKoFh9enHXuPpump"
-  },
-  {
-   "symbol": "alx",
-   "time": "12:00",
-   "status": "Scanner killed: liq $6.4K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=D2rJuZejecEHNPZY8kcgMsYMUNVFYJx7iADiGjRppump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "D2rJuZejecEHNPZY8kcgMsYMUNVFYJx7iADiGjRppump"
-  },
-  {
-   "symbol": "FlyCoin",
-   "time": "12:00",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=7S3TUfJZw9PrLqkM4YkSJ85ng17RjHpM8zwZf7Lopump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "7S3TUfJZw9PrLqkM4YkSJ85ng17RjHpM8zwZf7Lopump"
   }
  ],
  "funnel": {
-  "seen": 148,
+  "seen": 151,
   "passed": 12,
   "kills": {
    "liq $NK": 79,
-   "top N hold N%": 20,
+   "top N hold N%": 21,
    "dropped: unknown to DexScreener": 8,
    "+N% in Nh": 6,
    "copycat of cap": 1,
@@ -213,7 +213,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-26T14:06:58+08:00",
+ "updated_at": "2026-11-26T14:20:24+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
