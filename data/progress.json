@@ -1,21 +1,29 @@
 {
- "updated": "Fri 27 Nov 05:58 MYT",
+ "updated": "Fri 27 Nov 08:01 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
- "session": "2026-11-26",
+ "session": "2026-11-27",
  "balance": "$120.29",
  "cash": "$120.29",
- "pnl_pct": -14.8,
- "pnl_pct_label": "-14.80%",
+ "pnl_pct": 0.0,
+ "pnl_pct_label": "+0.00%",
  "positions": [],
  "trades": [],
  "coins": [
   {
-   "symbol": "HYPE",
-   "time": "05:07",
+   "symbol": "GIGACAT",
+   "time": "05:58",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=CiyV69uojxn1yt1EoUCrfSi61TxdqeBQYTPtLptrpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "CiyV69uojxn1yt1EoUCrfSi61TxdqeBQYTPtLptrpump"
+  },
+  {
+   "symbol": "HYPE",
+   "time": "05:07",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=Fqj3XrUuvj463PnPmL1uDjPCqSbTYMbgsuSphxiLpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "Fqj3XrUuvj463PnPmL1uDjPCqSbTYMbgsuSphxiLpump"
   },
@@ -114,31 +122,22 @@
    "verdict": "waiting",
    "link": "https://fomo.family/coin?address=2NJGXauC3wxEGzjRHHdMY9ojB5M21fgtk6isY9Nqpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "2NJGXauC3wxEGzjRHHdMY9ojB5M21fgtk6isY9Nqpump"
-  },
-  {
-   "symbol": "Pinky",
-   "time": "20:07",
-   "status": "Scanner killed: liq $1.4K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=BXzYTVqrvQhrTTL5HH1DdcD5o48xC217ed6Bkm7opump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "BXzYTVqrvQhrTTL5HH1DdcD5o48xC217ed6Bkm7opump"
   }
  ],
  "funnel": {
-  "seen": 136,
-  "passed": 11,
+  "seen": 97,
+  "passed": 6,
   "kills": {
-   "dropped: unknown to DexScreener": 7,
-   "liq $NK": 80,
-   "top N hold N%": 20,
-   "+N% in Nh": 5,
+   "liq $NK": 56,
+   "+N% in Nh": 4,
+   "dropped: unknown to DexScreener": 3,
+   "top N hold N%": 17,
    "copycat of cap": 1,
    "copycat of DongCoin": 1,
    "holders leaving -N% in Nm": 1
   },
   "refusals": {
-   "dev sold": 4,
-   "no data: dev": 1
+   "dev sold": 3
   }
  },
  "bots": [
@@ -173,7 +172,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T05:58:32+08:00",
+ "updated_at": "2026-11-27T08:01:47+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
