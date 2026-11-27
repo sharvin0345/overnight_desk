@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 17:06 MYT",
+ "updated": "Fri 27 Nov 19:04 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -14,8 +14,8 @@
   {
    "symbol": "target",
    "time": "16:05",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $0.0K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=5zKPPLtdyZ1cSbMDBGCmp5gJBmeccJHGNr1KhwUEpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "5zKPPLtdyZ1cSbMDBGCmp5gJBmeccJHGNr1KhwUEpump"
   },
@@ -125,10 +125,10 @@
   }
  ],
  "funnel": {
-  "seen": 59,
+  "seen": 57,
   "passed": 4,
   "kills": {
-   "liq $NK": 29,
+   "liq $NK": 28,
    "dropped: unknown to DexScreener": 2,
    "holders leaving -N% in Nm": 1,
    "top N hold N%": 6,
@@ -174,7 +174,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T17:06:12+08:00",
+ "updated_at": "2026-11-27T19:04:33+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
