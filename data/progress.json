@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 15:03 MYT",
+ "updated": "Fri 27 Nov 15:08 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,7 +12,23 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "C5xph2",
+   "symbol": "4aABkT",
+   "time": "15:05",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=4aABkT7wtTHMLfJT6ZHEQsRxMm3ePBedkF2WNdUzpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "4aABkT7wtTHMLfJT6ZHEQsRxMm3ePBedkF2WNdUzpump"
+  },
+  {
+   "symbol": "G T A",
+   "time": "15:05",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=42bid98yfirZsuXbjxPLKMViXuRDgJhB32jWsh8bDRzj&chainId=1399811149&r=savipww&source=share_link",
+   "address": "42bid98yfirZsuXbjxPLKMViXuRDgJhB32jWsh8bDRzj"
+  },
+  {
+   "symbol": "BTC",
    "time": "15:02",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -106,37 +122,20 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=13bTGnVDnxeo5HuLZ6gCxt6PqNQtXcRsfmwfoSuJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "13bTGnVDnxeo5HuLZ6gCxt6PqNQtXcRsfmwfoSuJpump"
-  },
-  {
-   "symbol": "UBR",
-   "time": "14:24",
-   "status": "Scanner killed: +6576993% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=1yQeZvoQDFPrAJoU49C6TqkqSMCXcqg8W8E2j2gpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "1yQeZvoQDFPrAJoU49C6TqkqSMCXcqg8W8E2j2gpump"
-  },
-  {
-   "symbol": "GTAVI",
-   "time": "14:16",
-   "status": "Scanner killed: top 10 hold 44%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=GsjyhywQrWK7h3opyPinvR7CpsBezZHdaowyp7E6pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "GsjyhywQrWK7h3opyPinvR7CpsBezZHdaowyp7E6pump"
   }
  ],
  "funnel": {
-  "seen": 44,
-  "passed": 2,
+  "seen": 46,
+  "passed": 1,
   "kills": {
-   "liq $NK": 25,
-   "top N hold N%": 4,
+   "liq $NK": 24,
    "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1,
+   "top N hold N%": 3,
    "+N% in Nh": 6,
    "copycat of EXEN": 1
   },
   "refusals": {
-   "dev sold": 1,
    "insiders hold 22%": 1
   }
  },
@@ -172,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T15:03:21+08:00",
+ "updated_at": "2026-11-27T15:08:25+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
