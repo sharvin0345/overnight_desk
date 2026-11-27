@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 14:39 MYT",
+ "updated": "Fri 27 Nov 14:44 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -30,8 +30,8 @@
   {
    "symbol": "mihao",
    "time": "14:30",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: top 10 hold 25%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump&chainId=1399811149&r=savipww&source=share_link",
    "address": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump"
   },
@@ -125,12 +125,12 @@
   }
  ],
  "funnel": {
-  "seen": 48,
+  "seen": 45,
   "passed": 2,
   "kills": {
-   "liq $NK": 27,
-   "top N hold N%": 5,
    "+N% in Nh": 6,
+   "liq $NK": 25,
+   "top N hold N%": 5,
    "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1
   },
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T14:39:17+08:00",
+ "updated_at": "2026-11-27T14:44:22+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
