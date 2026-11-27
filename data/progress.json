@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 15:33 MYT",
+ "updated": "Fri 27 Nov 15:38 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,7 +12,15 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "GXuM8i",
+   "symbol": "ATX",
+   "time": "15:37",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=14t9tMVV7Y9j2LH5HYf7F3H3WsAkmLooQvqcyWUupump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "14t9tMVV7Y9j2LH5HYf7F3H3WsAkmLooQvqcyWUupump"
+  },
+  {
+   "symbol": "Claude AI",
    "time": "15:33",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
@@ -22,8 +30,8 @@
   {
    "symbol": "NCSP",
    "time": "15:24",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: +46043% in 1h",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=eMSpHgPMZruRVEHNtgANgTTpmUefUvNmNeJ1toJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "eMSpHgPMZruRVEHNtgANgTTpmUefUvNmNeJ1toJpump"
   },
@@ -38,8 +46,8 @@
   {
    "symbol": "Stickman",
    "time": "15:23",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $3.7K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=H8cim5HL7iSqTKhb47TLzwC54Ag7si1V3nob8rwWpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "H8cim5HL7iSqTKhb47TLzwC54Ag7si1V3nob8rwWpump"
   },
@@ -114,25 +122,17 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=42bid98yfirZsuXbjxPLKMViXuRDgJhB32jWsh8bDRzj&chainId=1399811149&r=savipww&source=share_link",
    "address": "42bid98yfirZsuXbjxPLKMViXuRDgJhB32jWsh8bDRzj"
-  },
-  {
-   "symbol": "BTC",
-   "time": "15:02",
-   "status": "Analyst refused: 46 bundled wallets",
-   "verdict": "pass",
-   "link": "https://fomo.family/coin?address=C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump"
   }
  ],
  "funnel": {
-  "seen": 57,
+  "seen": 58,
   "passed": 2,
   "kills": {
-   "liq $NK": 29,
+   "liq $NK": 30,
    "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1,
    "top N hold N%": 6,
-   "+N% in Nh": 7,
+   "+N% in Nh": 8,
    "copycat of EXEN": 1
   },
   "refusals": {
@@ -172,7 +172,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T15:33:47+08:00",
+ "updated_at": "2026-11-27T15:38:51+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
