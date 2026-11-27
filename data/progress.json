@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 15:49 MYT",
+ "updated": "Fri 27 Nov 15:54 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -14,16 +14,16 @@
   {
    "symbol": "SNOWBALLZ",
    "time": "15:42",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Analyst refused: insiders hold 21%",
+   "verdict": "pass",
    "link": "https://fomo.family/coin?address=DCFiFuRwjwdSKcYKmuz47gcSNsjjtZ6Rh8KkLaVCpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "DCFiFuRwjwdSKcYKmuz47gcSNsjjtZ6Rh8KkLaVCpump"
   },
   {
    "symbol": "NOAF",
    "time": "15:41",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: +413730% in 1h",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=WfvS86dfMBuZSJQQL2PTNQNoPbZD1BC9e7Uuv5rpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "WfvS86dfMBuZSJQQL2PTNQNoPbZD1BC9e7Uuv5rpump"
   },
@@ -126,19 +126,20 @@
  ],
  "funnel": {
   "seen": 60,
-  "passed": 3,
+  "passed": 4,
   "kills": {
    "liq $NK": 30,
    "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1,
    "top N hold N%": 6,
-   "+N% in Nh": 9,
+   "+N% in Nh": 10,
    "copycat of EXEN": 1
   },
   "refusals": {
    "insiders hold 22%": 1,
    "46 bundled wallets": 1,
-   "dev sold": 1
+   "dev sold": 1,
+   "insiders hold 21%": 1
   }
  },
  "bots": [
@@ -173,7 +174,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T15:49:00+08:00",
+ "updated_at": "2026-11-27T15:54:05+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
