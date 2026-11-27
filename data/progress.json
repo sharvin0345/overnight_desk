@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 14:19 MYT",
+ "updated": "Fri 27 Nov 14:24 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -22,8 +22,8 @@
   {
    "symbol": "VIDA",
    "time": "14:12",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: +1107257% in 1h",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=ejz2TB4Boghn85j9irFSBwakjud4tg9J8KXsmgZpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "ejz2TB4Boghn85j9irFSBwakjud4tg9J8KXsmgZpump"
   },
@@ -125,12 +125,12 @@
   }
  ],
  "funnel": {
-  "seen": 48,
+  "seen": 45,
   "passed": 2,
   "kills": {
-   "liq $NK": 30,
+   "liq $NK": 29,
    "top N hold N%": 4,
-   "+N% in Nh": 3,
+   "+N% in Nh": 4,
    "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1
   },
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T14:19:01+08:00",
+ "updated_at": "2026-11-27T14:24:05+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
