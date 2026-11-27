@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 14:24 MYT",
+ "updated": "Fri 27 Nov 14:29 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,10 +12,50 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "GTAVI",
-   "time": "14:16",
+   "symbol": "Bull",
+   "time": "14:27",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=HHbhrayLYEzfvdfaS73uazUVPLzrU9E67xvWrQwfpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "HHbhrayLYEzfvdfaS73uazUVPLzrU9E67xvWrQwfpump"
+  },
+  {
+   "symbol": "GTA6",
+   "time": "14:26",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=AMe1kWWgf48wCZTfPAVEuPtLRN48p6nAp5Babx9Ypump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "AMe1kWWgf48wCZTfPAVEuPtLRN48p6nAp5Babx9Ypump"
+  },
+  {
+   "symbol": "SHARK",
+   "time": "14:25",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=HKKX64H1sLwS42nUpCcNxti546E3FKEHZifhhekFpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "HKKX64H1sLwS42nUpCcNxti546E3FKEHZifhhekFpump"
+  },
+  {
+   "symbol": "UBR",
+   "time": "14:25",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=13bTGnVDnxeo5HuLZ6gCxt6PqNQtXcRsfmwfoSuJpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "13bTGnVDnxeo5HuLZ6gCxt6PqNQtXcRsfmwfoSuJpump"
+  },
+  {
+   "symbol": "UBR",
+   "time": "14:24",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=1yQeZvoQDFPrAJoU49C6TqkqSMCXcqg8W8E2j2gpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "1yQeZvoQDFPrAJoU49C6TqkqSMCXcqg8W8E2j2gpump"
+  },
+  {
+   "symbol": "GTAVI",
+   "time": "14:16",
+   "status": "Scanner killed: top 10 hold 44%",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=GsjyhywQrWK7h3opyPinvR7CpsBezZHdaowyp7E6pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "GsjyhywQrWK7h3opyPinvR7CpsBezZHdaowyp7E6pump"
   },
@@ -82,54 +122,14 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=CmZcJVr3zmyz6bHP9jHY2J1BZ4ZYng9z2DSGaZtrpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "CmZcJVr3zmyz6bHP9jHY2J1BZ4ZYng9z2DSGaZtrpump"
-  },
-  {
-   "symbol": "hugo",
-   "time": "12:06",
-   "status": "Scanner killed: liq $1.7K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=CnQvqCvTDKuXc1c2Y7e8pLxNhWS57iFk5HJkKcHhpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "CnQvqCvTDKuXc1c2Y7e8pLxNhWS57iFk5HJkKcHhpump"
-  },
-  {
-   "symbol": "USEF",
-   "time": "08:08",
-   "status": "Scanner killed: +25163% in 1h",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=remH7wVXNY1rCbuhdSN4nisUYMQCDHURoGZivLUpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "remH7wVXNY1rCbuhdSN4nisUYMQCDHURoGZivLUpump"
-  },
-  {
-   "symbol": "GTAVI",
-   "time": "08:07",
-   "status": "Scanner killed: top 10 hold 31%",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=HeYnz24VxKGvoALc26gDLoVKjsHD9LVqLLDKoWpxpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "HeYnz24VxKGvoALc26gDLoVKjsHD9LVqLLDKoWpxpump"
-  },
-  {
-   "symbol": "GIGACAT",
-   "time": "05:58",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=CiyV69uojxn1yt1EoUCrfSi61TxdqeBQYTPtLptrpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "CiyV69uojxn1yt1EoUCrfSi61TxdqeBQYTPtLptrpump"
-  },
-  {
-   "symbol": "HYPE",
-   "time": "05:07",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Fqj3XrUuvj463PnPmL1uDjPCqSbTYMbgsuSphxiLpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Fqj3XrUuvj463PnPmL1uDjPCqSbTYMbgsuSphxiLpump"
   }
  ],
  "funnel": {
-  "seen": 45,
+  "seen": 48,
   "passed": 2,
   "kills": {
    "liq $NK": 29,
-   "top N hold N%": 4,
+   "top N hold N%": 5,
    "+N% in Nh": 4,
    "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1
@@ -171,7 +171,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T14:24:05+08:00",
+ "updated_at": "2026-11-27T14:29:09+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
