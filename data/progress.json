@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 13:58 MYT",
+ "updated": "Fri 27 Nov 14:03 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,14 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "FHC",
+   "time": "13:59",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=43GGzLyNpmS1vJriFdd1AjU2pR5zPaUzGPA6JFtspump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "43GGzLyNpmS1vJriFdd1AjU2pR5zPaUzGPA6JFtspump"
+  },
   {
    "symbol": "FLOAT",
    "time": "13:57",
@@ -30,8 +38,8 @@
   {
    "symbol": "Pilly",
    "time": "13:50",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
+   "status": "Scanner killed: liq $8.4K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=8XEddj5r2MkiKgFgMGUev3WMAyk5td2NXD6z3bRypump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8XEddj5r2MkiKgFgMGUev3WMAyk5td2NXD6z3bRypump"
   },
@@ -114,14 +122,6 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=Eyevsagqp6qyUxz5Dj2jWawww5csjDFLtrPPmRwYpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "Eyevsagqp6qyUxz5Dj2jWawww5csjDFLtrPPmRwYpump"
-  },
-  {
-   "symbol": "securititty",
-   "time": "03:07",
-   "status": "Scanner killed: liq $1.3K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=Gvo9widdpuyi2XsWm9gAepfcBR54c7XrrSSdwF2Mpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "Gvo9widdpuyi2XsWm9gAepfcBR54c7XrrSSdwF2Mpump"
   }
  ],
  "funnel": {
@@ -129,7 +129,7 @@
   "passed": 1,
   "kills": {
    "top N hold N%": 5,
-   "liq $NK": 25,
+   "liq $NK": 26,
    "+N% in Nh": 3,
    "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1
@@ -170,7 +170,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T13:58:43+08:00",
+ "updated_at": "2026-11-27T14:03:47+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
