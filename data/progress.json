@@ -1,6 +1,6 @@
 {
  "updated": "Fri 27 Nov 14:49 MYT",
- "source": "api",
+ "source": "file (api down: URLError)",
  "mode": "PAPER",
  "active": true,
  "session": "2026-11-27",
@@ -11,6 +11,14 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "E481s3",
+   "time": "14:49",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=E481s3JLMDgqBuQTJnW1tpheD2w8qD6irfg6oUobpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "E481s3JLMDgqBuQTJnW1tpheD2w8qD6irfg6oUobpump"
+  },
   {
    "symbol": "UBR",
    "time": "14:48",
@@ -114,18 +122,10 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=HRRoxn8Luc54HJcVvpbfyXDXtxjgFGsydmRWc2r2pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "HRRoxn8Luc54HJcVvpbfyXDXtxjgFGsydmRWc2r2pump"
-  },
-  {
-   "symbol": "LMAO",
-   "time": "14:04",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=D62Y491GnbypoZfpdec26jGhF6Jv5NNZxLjUHfiapump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "D62Y491GnbypoZfpdec26jGhF6Jv5NNZxLjUHfiapump"
   }
  ],
  "funnel": {
-  "seen": 45,
+  "seen": 46,
   "passed": 2,
   "kills": {
    "+N% in Nh": 6,
@@ -172,7 +172,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T14:49:26+08:00",
+ "updated_at": "2026-11-27T14:58:16+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
