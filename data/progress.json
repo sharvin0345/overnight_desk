@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 11:05 MYT",
+ "updated": "Fri 27 Nov 13:02 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,14 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "hugo",
+   "time": "12:06",
+   "status": "Scanner killed: liq $1.7K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=CnQvqCvTDKuXc1c2Y7e8pLxNhWS57iFk5HJkKcHhpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "CnQvqCvTDKuXc1c2Y7e8pLxNhWS57iFk5HJkKcHhpump"
+  },
   {
    "symbol": "USEF",
    "time": "08:08",
@@ -114,25 +122,16 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=3KQP9amhEyYwCGs3rrF5vwWyd6SRFKYSqZorbGA7pump&chainId=1399811149&r=savipww&source=share_link",
    "address": "3KQP9amhEyYwCGs3rrF5vwWyd6SRFKYSqZorbGA7pump"
-  },
-  {
-   "symbol": "Sal",
-   "time": "23:08",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=F4oRJBGgkhavrckdeJciutSK36jgLQpiAwaiq8nJpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "F4oRJBGgkhavrckdeJciutSK36jgLQpiAwaiq8nJpump"
   }
  ],
  "funnel": {
-  "seen": 72,
-  "passed": 2,
+  "seen": 42,
+  "passed": 1,
   "kills": {
-   "top N hold N%": 14,
-   "liq $NK": 44,
-   "dropped: unknown to DexScreener": 2,
-   "copycat of DongCoin": 1,
+   "liq $NK": 28,
    "+N% in Nh": 3,
+   "top N hold N%": 5,
+   "dropped: unknown to DexScreener": 1,
    "holders leaving -N% in Nm": 1
   },
   "refusals": {
@@ -171,7 +170,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T11:05:41+08:00",
+ "updated_at": "2026-11-27T13:02:32+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
