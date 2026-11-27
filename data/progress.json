@@ -1,5 +1,5 @@
 {
- "updated": "Fri 27 Nov 08:01 MYT",
+ "updated": "Fri 27 Nov 08:08 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,22 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "remH7w",
+   "time": "08:08",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=remH7wVXNY1rCbuhdSN4nisUYMQCDHURoGZivLUpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "remH7wVXNY1rCbuhdSN4nisUYMQCDHURoGZivLUpump"
+  },
+  {
+   "symbol": "HeYnz2",
+   "time": "08:07",
+   "status": "Waiting for the 10 min mark",
+   "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=HeYnz24VxKGvoALc26gDLoVKjsHD9LVqLLDKoWpxpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "HeYnz24VxKGvoALc26gDLoVKjsHD9LVqLLDKoWpxpump"
+  },
   {
    "symbol": "GIGACAT",
    "time": "05:58",
@@ -106,26 +122,10 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=F4oRJBGgkhavrckdeJciutSK36jgLQpiAwaiq8nJpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "F4oRJBGgkhavrckdeJciutSK36jgLQpiAwaiq8nJpump"
-  },
-  {
-   "symbol": "$AURA",
-   "time": "23:08",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=7SEUM4zprbEgGhYNaAGRjcYMHVZYTrfBsoWiaZSSpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "7SEUM4zprbEgGhYNaAGRjcYMHVZYTrfBsoWiaZSSpump"
-  },
-  {
-   "symbol": "2NJGXa",
-   "time": "23:08",
-   "status": "Waiting for the 10 min mark",
-   "verdict": "waiting",
-   "link": "https://fomo.family/coin?address=2NJGXauC3wxEGzjRHHdMY9ojB5M21fgtk6isY9Nqpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "2NJGXauC3wxEGzjRHHdMY9ojB5M21fgtk6isY9Nqpump"
   }
  ],
  "funnel": {
-  "seen": 97,
+  "seen": 96,
   "passed": 6,
   "kills": {
    "liq $NK": 56,
@@ -172,7 +172,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-27T08:01:47+08:00",
+ "updated_at": "2026-11-27T08:08:38+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
