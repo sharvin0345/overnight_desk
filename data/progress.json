@@ -1,5 +1,5 @@
 {
- "updated": "Sat 28 Nov 23:04 MYT",
+ "updated": "Sun 29 Nov 00:05 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -12,10 +12,18 @@
  "trades": [],
  "coins": [
   {
-   "symbol": "GOTF",
-   "time": "23:01",
+   "symbol": "8vzHgD",
+   "time": "00:03",
    "status": "Waiting for the 10 min mark",
    "verdict": "waiting",
+   "link": "https://fomo.family/coin?address=8vzHgDkeADnGSrBTuerMLm24y6yheAtnHa63aqx7pump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "8vzHgDkeADnGSrBTuerMLm24y6yheAtnHa63aqx7pump"
+  },
+  {
+   "symbol": "GOTF",
+   "time": "23:01",
+   "status": "Scanner killed: liq $1.6K",
+   "verdict": "kill",
    "link": "https://fomo.family/coin?address=S9X15M5DnsKoMowaD17nFnHU4Lu2ZGiBNktgFhcpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "S9X15M5DnsKoMowaD17nFnHU4Lu2ZGiBNktgFhcpump"
   },
@@ -114,21 +122,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=8w5roka7nshQqgLiC65gkWG2gP3v8iF6rfsr877Zpump&chainId=1399811149&r=savipww&source=share_link",
    "address": "8w5roka7nshQqgLiC65gkWG2gP3v8iF6rfsr877Zpump"
-  },
-  {
-   "symbol": "SASSY",
-   "time": "14:22",
-   "status": "Scanner killed: liq $0.0K",
-   "verdict": "kill",
-   "link": "https://fomo.family/coin?address=97kH5rR699HvucFdifba2dUMQbpc8YRofrCKkRKmpump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "97kH5rR699HvucFdifba2dUMQbpc8YRofrCKkRKmpump"
   }
  ],
  "funnel": {
-  "seen": 24,
+  "seen": 25,
   "passed": 2,
   "kills": {
-   "liq $NK": 12,
+   "liq $NK": 13,
    "+N% in Nh": 2,
    "top N hold N%": 1
   },
@@ -169,7 +169,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-28T23:04:04+08:00",
+ "updated_at": "2026-11-29T00:05:59+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
