@@ -1,5 +1,5 @@
 {
- "updated": "Sat 28 Nov 10:01 MYT",
+ "updated": "Sat 28 Nov 11:01 MYT",
  "source": "api",
  "mode": "PAPER",
  "active": true,
@@ -11,6 +11,14 @@
  "positions": [],
  "trades": [],
  "coins": [
+  {
+   "symbol": "Jensen",
+   "time": "10:11",
+   "status": "Scanner killed: liq $0.2K",
+   "verdict": "kill",
+   "link": "https://fomo.family/coin?address=2qbMK4BVRGvdQgTdrnqc4ksdjTQdvzvrBJqsBBeSpump&chainId=1399811149&r=savipww&source=share_link",
+   "address": "2qbMK4BVRGvdQgTdrnqc4ksdjTQdvzvrBJqsBBeSpump"
+  },
   {
    "symbol": "4CnsDa",
    "time": "08:08",
@@ -114,21 +122,13 @@
    "verdict": "kill",
    "link": "https://fomo.family/coin?address=14t9tMVV7Y9j2LH5HYf7F3H3WsAkmLooQvqcyWUupump&chainId=1399811149&r=savipww&source=share_link",
    "address": "14t9tMVV7Y9j2LH5HYf7F3H3WsAkmLooQvqcyWUupump"
-  },
-  {
-   "symbol": "Claude AI",
-   "time": "15:33",
-   "status": "Analyst refused: dev sold",
-   "verdict": "pass",
-   "link": "https://fomo.family/coin?address=GXuM8iEUCXMMR7ZjtwnydPHX8vhibaaLTuf3JLepump&chainId=1399811149&r=savipww&source=share_link",
-   "address": "GXuM8iEUCXMMR7ZjtwnydPHX8vhibaaLTuf3JLepump"
   }
  ],
  "funnel": {
-  "seen": 49,
+  "seen": 50,
   "passed": 4,
   "kills": {
-   "liq $NK": 22,
+   "liq $NK": 23,
    "+N% in Nh": 10,
    "top N hold N%": 5,
    "copycat of EXEN": 1,
@@ -163,7 +163,7 @@
    "state": "ok"
   }
  ],
- "ws": "open",
+ "ws": "reconnecting",
  "rules": {
   "stop_pct": 25,
   "tp_x": 2.0,
@@ -173,7 +173,7 @@
  "signup": "https://fomo.family/r/savipww",
  "schema_version": 1,
  "timezone": "Asia/Kuala_Lumpur",
- "updated_at": "2026-11-28T10:01:12+08:00",
+ "updated_at": "2026-11-28T11:01:44+08:00",
  "paper_start_usd": 150.0,
  "balance_usd": 120.29,
  "cash_usd": 120.29
